@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d212a;
+    color: #fff;
+}
+header {
+    background-color: #171a20;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #ea9ab2;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav {
+    background-color: #292f3a;
+    color: #7b8b8f;
+    padding: 10px 20px;
+    flex: 1;
+    order: 2;
+}
+nav a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #ea9ab2;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav ul ul {
+    display: none;
+    padding-left: 20px;
+}
+nav ul ul a {
+    color: #ea9ab2;
+}
+.content {
+    flex: 2;
+    padding: 20px;
+}
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    nav {
+        display: none;
+        order: 1;
+        position: relative;
+        z-index: 1;
+        padding: 10px 20px;
+    }
+    .content {
+        order: 2;
+        padding: 20px;
+    }
+    .menu-toggle {
+        display: block;
+        float: left;
+        order: 3;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .menu-toggle.active + nav {
+        display: block;
+    }
+}
