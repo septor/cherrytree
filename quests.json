@@ -1,0 +1,389 @@
+
+{
+    "Farmer": {
+        "I": {
+            "Tomato": 25
+        },
+        "II": {
+            "Apple": 25
+        },
+        "III": {
+            "Red Onion": 25
+        },
+        "IV": {
+            "Cherries": 50
+        },
+        "V": {
+            "Grapes": 100
+        }
+    },
+    "Crafter": {
+        "I": {
+            "Rope": 10
+        },
+        "II": {
+            "Satchel": 25
+        },
+        "III": {
+            "Iron Top": 25
+        },
+        "IV": {
+            "Scarf": 50
+        },
+        "V": {
+            "Mithril Top": 100
+        }
+    },
+    "Alchemy": {
+        "I": {
+            "Akomeric": 25
+        },
+        "II": {
+            "Bloodroot": 50
+        },
+        "III": {
+            "Hyssop": 50
+        },
+        "IV": {
+            "Sage Leaf": 100
+        },
+        "V": {
+            "Vissinel": 150
+        }
+    },
+    "Fishing": {
+        "I": {
+            "Raw Shrimp": 20
+        },
+        "II": {
+            "Raw Carp": 50
+        },
+        "III": {
+            "Raw Perch": 75
+        },
+        "IV": {
+            "Raw Jellyfish": 150
+        },
+        "V": {
+            "Raw Shark": 250
+        }
+    },
+    "Warrior": {
+        "I": {
+            "Bones": 25
+        },
+        "II": {
+            "Bacon": 50,
+            "Red Chest": 5
+        },
+        "IV": {
+            "Ram Skull": 1,
+            "Honey": 10
+        },
+        "V": {
+            "Golden Necklace": 1,
+            "Dragon Plate": 10,
+            "Dragon Leather": 10
+        }
+    },
+    "Wealth": {
+        "I": {
+            "Coins": 1000
+        },
+        "II": {
+            "Coins": 10000
+        },
+        "III": {
+            "Coins": 100000
+        },
+        "IV": {
+            "Coins": 500000
+        },
+        "V": {
+            "Coins": 1000000
+        },
+        "VI": {
+            "Coins": 10000000
+        },
+        "VII": {
+            "Coins": 100000000
+        },
+        "VIII": {
+            "Coins": 1000000000
+        },
+        "IX": {
+            "Coins": 10000000000
+        },
+        "X": {
+            "Coins": 100000000000
+        }
+    },
+    "Cooking": {
+        "I": {
+            "Shrimp": 20
+        },
+        "II": {
+            "Carp": 50
+        },
+        "III": {
+            "Perch": 100
+        },
+        "IV": {
+            "Jellyfish": 200
+        },
+        "V": {
+            "Shark": 500
+        },
+        "VI": {
+            "Fish Wedge": 250
+        },
+        "VII": {
+            "Fish Soup": 250
+        },
+        "VIII": {
+            "Bone Stew": 300
+        },
+        "IX": {
+            "Mushroom Soup": 400
+        },
+        "X": {
+            "Crab Soup": 500
+        }
+    },
+    "I like Knitting": {
+        "I": {
+            "Thread": 2000
+        },
+        "II": {
+            "Thread": 2000
+        },
+        "III": {
+            "Thread": 2000
+        },
+        "IV": {
+            "Thread": 2000
+        },
+        "V": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "VI": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "VII": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "VIII": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "IX": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "X": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "XI": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "XII": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XIII": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XIV": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XV": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XVI": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XVII": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XVIII": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XIX": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "XX": {
+            "Thread": 10000,
+            "Yarn": 5000
+        }
+    },
+    "The Hoarder": {
+        "I": {
+            "Wooden Plank": 250
+        },
+        "II": {
+            "Potato Sack": 250
+        },
+        "III": {
+            "Wooden Plank": 250
+        },
+        "IV": {
+            "Barrel": 500
+        },
+        "V": {
+            "Satchel": 500
+        },
+        "VI": {
+            "Bestiary": 500
+        },
+        "VII": {
+            "Waterskin": 1000
+        },
+        "VIII": {
+            "Scissors": 1000
+        },
+        "IX": {
+            "Coin Purse": 1000
+        },
+        "X": {
+            "Crate": 1500
+        },
+        "XI": {
+            "Raft": 1500
+        },
+        "XII": {
+            "Diary": 1500
+        },
+        "XIII": {
+            "Hammer": 2000
+        },
+        "XIV": {
+            "Notebook": 2000
+        },
+        "XV": {
+            "Hourglass": 2000
+        },
+        "XVI": {
+            "Leather Bag": 2500
+        },
+        "XVII": {
+            "Scarf": 2500
+        },
+        "XVIII": {
+            "Scroll": 2500
+        },
+        "XIX": {
+            "Workbench": 5000
+        },
+        "XX": {
+            "Wine": 500
+        }
+    },
+    "Potions Forever": {
+        "I": {
+            "Attack Potion": 25
+        },
+        "II": {
+            "Defence Potion": 25
+        },
+        "III": {
+            "Strength Potion": 25
+        },
+        "IV": {
+            "Fishing Potion": 50
+        },
+        "V": {
+            "Health Potion": 50
+        },
+        "VI": {
+            "Energy Potion": 50
+        },
+        "VII": {
+            "Super Attack Potion": 100
+        },
+        "VIII": {
+            "Super Fishing Potion": 100
+        },
+        "IX": {
+            "Super Defence Potion": 100
+        },
+        "X": {
+            "Super Energy Potion": 200
+        },
+        "XI": {
+            "Super Strength Potion": 200
+        },
+        "XII": {
+            "Super Health Potion": 250
+        },
+        "XIII": {
+            "Luck Potion": 250
+        },
+        "XIV": {
+            "Extreme Energy Potion": 250
+        },
+        "XV": {
+            "Extreme Attack Potion": 500
+        },
+        "XVI": {
+            "Extreme Defence Potion": 500
+        },
+        "XVII": {
+            "Extreme Strength Potion": 500
+        },
+        "XVIII": {
+            "Extreme Health Potion": 1000
+        },
+        "XIX": {
+            "Insta Kill Potion": 50
+        }
+    },
+    "Death to All": {
+        "I": {
+            "Bones": 500
+        },
+        "II": {
+            "Bones": 1000
+        },
+        "III": {
+            "Bones": 2500
+        },
+        "IV": {
+            "Dragon Bones": 1000
+        },
+        "V": {
+            "Dragon Bones": 2500
+        },
+        "VI": {
+            "Dragon Bones": 5000
+        }
+    },
+    "Chest Collector": {
+        "I": {
+            "Common Chest": 50
+        },
+        "II": {
+            "Red Chest": 100
+        },
+        "III": {
+            "Spiked Chest": 150
+        },
+        "IV": {
+            "Nefrit Chest": 200
+        },
+        "V": {
+            "Crystal Chest": 500
+        }
+    }
+}
