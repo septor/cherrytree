@@ -15,3 +15,12 @@ for (var i = 0; i < submenuItems.length; i++) {
         submenu.style.display = submenu.style.display === 'block' ? '' : 'block';
     });
 }
+
+function toClipboard() {
+    var copyText = document.getElementsByClassName("script-code-block");
+
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+    alert("Copied!");
+} 

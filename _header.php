@@ -1,4 +1,6 @@
-<?php include 'data.php'; ?>
+<?php
+$quests = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/treefrog/main/quests.json"), true);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +31,6 @@
                             ?>
                         </ul>
                     </li>
-            <li><a href="clicker.php">AutoClicker Scripts</a></li>
         </ul>
     </nav>
     <div class="content">
