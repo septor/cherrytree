@@ -1,7 +1,8 @@
 <?php
-$websites = explode("\n", file_get_contents('websites.txt'));
-$spreadsheets = explode("\n", file_get_contents('spreadsheets.txt'));
-$repos = explode("\n", file_get_contents('repos.txt'));
+$source = "https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/cherrylinks/";
+$websites = explode("\n", file_get_contents($source.'websites.txt'));
+$spreadsheets = explode("\n", file_get_contents($source.'spreadsheets.txt'));
+$repos = explode("\n", file_get_contents($source.'repos.txt'));
 
 function processData($title, $dataList) {
     $output = "<div class='link-row'>";
