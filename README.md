@@ -4,11 +4,7 @@ Here is a collection of all the things I have written for CherryTree. View the R
 
 ## Disclaimer
 
-I am not affiliated with the developer of CherryTree. Direct all issues with this to the issues section of this repo, and not the developer of the game!
-
-## Missing or invalid requirements
-
-Submit an issue. The data is pulled from the Official Wiki of the game, so it's possible things there are outdated and I have bad information.
+I am not affiliated with the developer of CherryTree. Direct all issues with these pprojects to the issues section of this repo, and not the developer of the game!
 
 # CherryTree Game!
 
