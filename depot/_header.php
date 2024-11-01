@@ -1,5 +1,5 @@
 <?php
-$quests = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/treefrog/main/quests.json"), true);
+$quests = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/treefrog/refs/heads/main/data/quests.json"), true);
 ?>
 <!DOCTYPE html>
 <html lang="en">
