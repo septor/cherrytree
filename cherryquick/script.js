@@ -43,7 +43,7 @@ $(document).ready(function() {
         saveMode(mode);
     });
 
-    $.getJSON('https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/data/quests.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/quests.json', function(data) {
         var questLineSelect = $('#questLine');
         questLineSelect.append($('<option>', {
             value: '',

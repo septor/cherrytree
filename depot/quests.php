@@ -1,6 +1,6 @@
 <?php
 include '_header.php';
-$data = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/data/quests.json"), true);
+$data = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/quests.json"), true);
 $all_materials = [];
 
 if(isset($_GET['line'])) {
