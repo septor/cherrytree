@@ -4,7 +4,7 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
     $questLine = isset($_GET['questLine']) ? strtolower(trim($_GET['questLine'])) : null;
     $questLevels = isset($_GET['questLevels']) && $_GET['questLevels'] !== '' ? array_map('trim', explode(',', $_GET['questLevels'])) : [];
 
-    $datapoint = "https://raw.githubusercontent.com/septor/treefrog/refs/heads/main/data/";
+    $datapoint = "https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/data/";
     $basecampData = json_decode(file_get_contents($datapoint . "basecamp.json"), true);
     $questsData = json_decode(file_get_contents($datapoint . "quests.json"), true);
 

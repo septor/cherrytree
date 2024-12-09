@@ -1,6 +1,6 @@
 <?php
 include '_header.php';
-$data = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/treefrog/main/basecamp.json"), true);
+$data = json_decode(file_get_contents("https://raw.githubusercontent.com/septor/cherrytree/main/basecamp.json"), true);
 $all_materials = [];
 
 if (isset($_GET['level'])) {

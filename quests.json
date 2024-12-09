@@ -1,0 +1,523 @@
+
+{
+    "farmer": {
+        "1": {
+            "Tomato": 25
+        },
+        "2": {
+            "Apple": 25
+        },
+        "3": {
+            "Red Onion": 25
+        },
+        "4": {
+            "Cherries": 50
+        },
+        "5": {
+            "Grapes": 100
+        }
+    },
+    "crafter": {
+        "1": {
+            "Rope": 10
+        },
+        "2": {
+            "Satchel": 25
+        },
+        "3": {
+            "Iron Top": 25
+        },
+        "4": {
+            "Scarf": 50
+        },
+        "5": {
+            "Mithril Top": 100
+        }
+    },
+    "alchemy": {
+        "1": {
+            "Akomeric": 25
+        },
+        "2": {
+            "Bloodroot": 50
+        },
+        "3": {
+            "Hyssop": 50
+        },
+        "4": {
+            "Sage Leaf": 100
+        },
+        "5": {
+            "Vissinel": 150
+        }
+    },
+    "fishing": {
+        "1": {
+            "Raw Shrimp": 20
+        },
+        "2": {
+            "Raw Carp": 50
+        },
+        "3": {
+            "Raw Perch": 75
+        },
+        "4": {
+            "Raw Jellyfish": 150
+        },
+        "5": {
+            "Raw Shark": 250
+        }
+    },
+    "warrior": {
+        "1": {
+            "Bones": 25
+        },
+        "2": {
+            "Bacon": 50,
+            "Red Chest": 5
+        },
+        "4": {
+            "Ram Skull": 1,
+            "Honey": 10
+        },
+        "5": {
+            "Golden Necklace": 1,
+            "Dragon Plate": 10,
+            "Dragon Leather": 10
+        }
+    },
+    "wealth": {
+        "1": {
+            "Coins": 1000
+        },
+        "2": {
+            "Coins": 10000
+        },
+        "3": {
+            "Coins": 100000
+        },
+        "4": {
+            "Coins": 500000
+        },
+        "5": {
+            "Coins": 1000000
+        },
+        "6": {
+            "Coins": 10000000
+        },
+        "7": {
+            "Coins": 100000000
+        },
+        "8": {
+            "Coins": 1000000000
+        },
+        "9": {
+            "Coins": 10000000000
+        },
+        "10": {
+            "Coins": 100000000000
+        }
+    },
+    "cooking": {
+        "1": {
+            "Shrimp": 20
+        },
+        "2": {
+            "Carp": 50
+        },
+        "3": {
+            "Perch": 100
+        },
+        "4": {
+            "Jellyfish": 200
+        },
+        "5": {
+            "Shark": 500
+        },
+        "6": {
+            "Fish Wedge": 250
+        },
+        "7": {
+            "Fish Soup": 250
+        },
+        "8": {
+            "Bone Stew": 300
+        },
+        "9": {
+            "Mushroom Soup": 400
+        },
+        "10": {
+            "Crab Soup": 500
+        }
+    },
+    "i like knitting": {
+        "1": {
+            "Thread": 2000
+        },
+        "2": {
+            "Thread": 2000
+        },
+        "3": {
+            "Thread": 2000
+        },
+        "4": {
+            "Thread": 2000
+        },
+        "5": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "6": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "7": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "8": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "9": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "10": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "11": {
+            "Thread": 2000,
+            "Yarn": 1000
+        },
+        "12": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "13": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "14": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "15": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "16": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "17": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "18": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "19": {
+            "Thread": 5000,
+            "Yarn": 2000
+        },
+        "20": {
+            "Thread": 10000,
+            "Yarn": 5000
+        }
+    },
+    "the hoarder": {
+        "1": {
+            "Wooden Plank": 250
+        },
+        "2": {
+            "Potato Sack": 250
+        },
+        "3": {
+            "Wooden Plank": 250
+        },
+        "4": {
+            "Barrel": 500
+        },
+        "5": {
+            "Satchel": 500
+        },
+        "6": {
+            "Bestiary": 500
+        },
+        "7": {
+            "Waterskin": 1000
+        },
+        "8": {
+            "Scissors": 1000
+        },
+        "9": {
+            "Coin Purse": 1000
+        },
+        "10": {
+            "Crate": 1500
+        },
+        "11": {
+            "Raft": 1500
+        },
+        "12": {
+            "Diary": 1500
+        },
+        "13": {
+            "Hammer": 2000
+        },
+        "14": {
+            "Notebook": 2000
+        },
+        "15": {
+            "Hourglass": 2000
+        },
+        "16": {
+            "Leather Bag": 2500
+        },
+        "17": {
+            "Scarf": 2500
+        },
+        "18": {
+            "Scroll": 2500
+        },
+        "19": {
+            "Workbench": 5000
+        },
+        "20": {
+            "Wine": 500
+        }
+    },
+    "potions forever": {
+        "1": {
+            "Attack Potion": 25
+        },
+        "2": {
+            "Defence Potion": 25
+        },
+        "3": {
+            "Strength Potion": 25
+        },
+        "4": {
+            "Fishing Potion": 50
+        },
+        "5": {
+            "Health Potion": 50
+        },
+        "6": {
+            "Energy Potion": 50
+        },
+        "7": {
+            "Super Attack Potion": 100
+        },
+        "8": {
+            "Super Fishing Potion": 100
+        },
+        "9": {
+            "Super Defence Potion": 100
+        },
+        "10": {
+            "Super Energy Potion": 200
+        },
+        "11": {
+            "Super Strength Potion": 200
+        },
+        "12": {
+            "Super Health Potion": 250
+        },
+        "13": {
+            "Luck Potion": 250
+        },
+        "14": {
+            "Extreme Energy Potion": 250
+        },
+        "15": {
+            "Extreme Attack Potion": 500
+        },
+        "16": {
+            "Extreme Defence Potion": 500
+        },
+        "17": {
+            "Extreme Strength Potion": 500
+        },
+        "18": {
+            "Extreme Health Potion": 1000
+        },
+        "19": {
+            "Insta Kill Potion": 50
+        }
+    },
+    "death to all": {
+        "1": {
+            "Bones": 500
+        },
+        "2": {
+            "Bones": 1000
+        },
+        "3": {
+            "Bones": 2500
+        },
+        "4": {
+            "Dragon Bones": 1000
+        },
+        "5": {
+            "Dragon Bones": 2500
+        },
+        "6": {
+            "Dragon Bones": 5000
+        }
+    },
+    "chest collector": {
+        "1": {
+            "Common Chest": 50
+        },
+        "2": {
+            "Red Chest": 100
+        },
+        "3": {
+            "Spiked Chest": 150
+        },
+        "4": {
+            "Nefrit Chest": 200
+        },
+        "5": {
+            "Crystal Chest": 500
+        }
+    },
+    "my precious gold": {
+        "1": {
+            "Gold Coin": 100
+        },
+        "2": {
+            "Gold Coin": 250
+        },
+        "3": {
+            "Gold Coin": 500
+        },
+        "4": {
+            "Gold Coin": 1000
+        },
+        "5": {
+            "Gold Coin": 2500
+        },
+        "6": {
+            "Gold Coin": 3500
+        },
+        "7": {
+            "Gold Coin": 5000
+        },
+        "8": {
+            "Gold Coin": 10000
+        }
+    },
+    "secret keeper": {
+        "1": {
+            "Ancient Rod": 1
+        },
+        "2": {
+            "Chicken Knife": 1
+        },
+        "3": {
+            "Cauldron": 1
+        },
+        "4": {
+            "Rod of Anuket": 1
+        },
+        "5": {
+            "Drakes Dairy": 1
+        },
+        "6": {
+            "Mystic Hat": 1
+        },
+        "7": {
+            "Extreme Power Stone": 3
+        },
+        "8": {
+            "Ring of Death": 1
+        },
+        "9": {
+            "Ring of Speed": 1
+        },
+        "10": {
+            "Scythe of Demeter": 1
+        },
+        "11": {
+            "Pickaxe of the Gods": 1
+        }
+    },
+    "sleepless cogs": {
+        "1": {
+            "Cogs": 20
+        },
+        "2": {
+            "Cogs": 50
+        },
+        "3": {
+            "Cogs": 100
+        },
+        "4": {
+            "Cogs": 500
+        },
+        "5": {
+            "Cogs": 1000
+        },
+        "6": {
+            "Cogs": 2500
+        },
+        "7": {
+            "Cogs": 5000
+        },
+        "8": {
+            "Cogs": 10000
+        },
+        "9": {
+            "Cogs": 25000
+        },
+        "10": {
+            "Cogs": 50000
+        }
+    },
+    "beginners luck": {
+        "1": {
+            "Raw Shrimp": 30,
+            "Shrimp": 30
+        },
+        "2": {
+            "Leather": 10,
+            "Birds Nest": 10
+        },
+        "3": {
+            "Attack Potion": 10,
+            "Tomato": 10
+        },
+        "4": {
+            "Feathers": 50,
+            "Common Chest": 1
+        },
+        "5": {
+            "Bones": 50
+        },
+        "6": {
+            "Raw Minnows": 100,
+            "Minnows": 100
+        },
+        "7": {
+            "Iron Boots": 50,
+            "Mushroom": 50
+        },
+        "8": {
+            "Fishing Potion": 50,
+            "Strawberry": 50
+        },
+        "9": {
+            "Oak": 50,
+            "Red Chest": 10
+        },
+        "10": {
+            "Bones": 150,
+            "Milk": 50
+        }
+    }
+}
