@@ -5,7 +5,7 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
     $questLevels = isset($_GET['questLevels']) && $_GET['questLevels'] !== '' ? array_map('trim', explode(',', $_GET['questLevels'])) : [];
 
     $datapoint = "https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/";
-    $basecampData = json_decode(file_get_contents($datapoint . "basecamp.json"), true);
+    $baseCampData = json_decode(file_get_contents($datapoint . "basecamp.json"), true);
     $questsData = json_decode(file_get_contents($datapoint . "quests.json"), true);
 
     $results = [];
@@ -37,9 +37,9 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
     $expandedQuestLevels = array_unique($expandedQuestLevels);
 
     foreach ($expandedNeeds as $need) {
-        if (isset($basecampData[$need])) {
-            $results[$need] = $basecampData[$need];
-            foreach ($basecampData[$need] as $key => $value) {
+        if (isset($baseCampData[$need])) {
+            $results[$need] = $baseCampData[$need];
+            foreach ($baseCampData[$need] as $key => $value) {
                 if (is_numeric($value)) {
                     if (!isset($totals[$key])) {
                         $totals[$key] = 0;

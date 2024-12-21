@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --bg-color-light: #f1f1f1;
+    --text-color-light: #292f3a;
+    --bg-color-dark: #292f3a;
+    --text-color-dark: #f1f1f1;
+}
+body {
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.banshenMode {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+body.normalMode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+body.normalMode input[type=text], body.normalMode select {
+    background-color: #292f3a;
+    color: #f1f1f1;
+    border: 1px solid #cccccc;
+}
+body.banshenMode input[type=text], body.banshenMode select {
+    background-color: #f1f1f1;
+    color: #292f3a;
+    border: 1px solid #cccccc;
+}
+::placeholder {
+    color: #cccccc;
+    opacity: 1;
+}
+::-ms-input-placeholder {
+    color: #cccccc;
+}
+input, button, select {
+    font-family: "Josefin Sans", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #ea9ab2;
+    color: #292f3a;
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.2em;
+}
+header button {
+    background: none;
+    border: none;
+    color: #292f3a;
+    font-size: 1em;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+nav button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: 1px solid #ea9ab2;
+    background: none;
+    color: #ea9ab2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+nav button.active {
+    background-color: #ea9ab2;
+    color: #292f3a;
+}
+nav button:hover {
+    background-color: #ea9ab2;
+    color: #292f3a;
+}
+#themeToggle {
+    color: #292f3a;
+    font-weight: 800;
+}
+.tool {
+    display: none;
+    padding: 15px;
+}
+.tool.active {
+    display: block;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+input, button, select {
+    font-family: "Josefin Sans", sans-serif;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+button {
+    background-color: #ea9ab2;
+    color: #292f3a;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#results {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}

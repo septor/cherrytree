@@ -1,2 +1,0 @@
-https://github.com/septor/treefrog|||TreeFrog Repo
-https://github.com/septor/cherrytree|||septor's CherryTree projects
