@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^quick$ /cherrytree/index.php?tool=quick [L,QSA]
+RewriteRule ^hunts$ /cherrytree/index.php?tool=hunts [L,QSA]
+
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>

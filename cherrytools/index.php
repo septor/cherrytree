@@ -1,3 +1,4 @@
+<?php $tool = isset($_GET['tool']) ? $_GET['tool'] : 'quick'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,12 +14,12 @@
         <button id="themeToggle">Switch to Banshen Mode</button>
     </header>
     <nav>
-        <button id="cherryQuickButton" class="active">CherryQuick</button>
-        <button id="cherryHuntsButton">CherryHunts</button>
+        <button id="cherryQuickButton"<?= $tool === 'quick' ? ' class="active"' : ''; ?>>CherryQuick</button>
+        <button id="cherryHuntsButton"<?= $tool === 'hunts' ? ' class="active"' : ''; ?>>CherryHunts</button>
     </nav>
     <main>
 
-        <div id="cherryQuick" class="tool active">
+        <div id="cherryQuick" class="tool<?= $tool === 'quick' ? ' active' : ''; ?>">
             <h2>CherryQuick</h2>
             <p>All data can be entered at once, or by itself. Output will include everything. Quest level(s) require a quest line. Quest lines do not require quest levels.</p>
             <label for="baseCampData">Base Camp Level(s):</label>
@@ -32,7 +33,7 @@
             <button onclick="fetchData()">Fetch It!</button>
         </div>
 
-        <div id="cherryHunts" class="tool">
+        <div id="cherryHunts" class="tool<?= $tool === 'hunts' ? ' active' : ''; ?>">
             <h2>CherryHunts</h2>
             <p>If you're working on your treasure scrolls, you'll realize all methods for hunting down the answers suck. Try this instead!</p>
             <input type="text" id="treasureHint" placeholder="Start typing your treasure scroll hint...">
