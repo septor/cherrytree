@@ -1,6 +1,5 @@
 RewriteEngine On
-RewriteRule ^quick$ /cherrytree/index.php?tool=quick [L,QSA]
-RewriteRule ^hunts$ /cherrytree/index.php?tool=hunts [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)$ /cherrytree/index.php?tool=$1
 
 <Files .htaccess>
     Order Allow,Deny
