@@ -1,675 +1,1112 @@
 {
     "1": {
+        "benefits": "Gives a permanent hidden +25 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 10000,
             "Wood": 200,
             "Thread": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 25,
+            "Alchemy": 25,
+            "Discovery": 25
+        },
+        "rewards": {
+            "Small Exp Scroll": 1
+        }
     },
     "2": {
+        "benefits": "Gain 1 Extra item from exploring (Stacks with Discovery Cape)",
         "resources": {
             "Coins": 20000,
             "Hide": 500,
             "Iron": 250
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 25,
+            "Crafting": 25,
+            "Cooking": 25
+        },
+        "rewards": {
+            "Small Exp Scroll": 1
+        }
     },
     "3": {
+        "benefits": "Doubles all potions made (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 30000,
             "Yarn": 250,
             "Barrel": 200
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 30,
+            "Alchemy": 30,
+            "Discovery": 30
+        },
+        "rewards": {
+            "Small Exp Scroll": 1
+        }
     },
     "4": {
+        "benefits": "Permanently halves the cost of changing your class",
         "resources": {
             "Coins": 40000,
             "Attack Potion": 200,
             "Waterskin": 100
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 30,
+            "Crafting": 30,
+            "Cooking": 30
+        },
+        "rewards": {
+            "Small Exp Scroll": 1
+        }
     },
     "5": {
+        "benefits": "Unlocks the Treestone of Space which gives access to the base tower stash, a secondary upgradable inventory with 25 starting spaces",
         "resources": {
             "Coins": 50000,
             "Gold Coin": 15,
             "Thread": 1000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 35,
+            "Alchemy": 35,
+            "Discovery": 35
+        },
+        "rewards": {
+            "Small Exp Scroll": 1
+        }
     },
     "6": {
+        "benefits": "Gives a permanent hidden +25 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 60000,
             "Strength Potion": 250,
             "Coin Purse": 100
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 35,
+            "Crafting": 35,
+            "Cooking": 35
+        },
+        "rewards": {
+            "Small Exp Scroll": 2
+        }
     },
     "7": {
+        "benefits": "Doubles all Fish caught (Works with Nets and stacks with Premium Upgrades)",
         "resources": {
             "Coins": 70000,
             "Perch": 250,
             "Raw Perch": 250
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 40,
+            "Alchemy": 40,
+            "Discovery": 40
+        },
+        "rewards": {
+            "Small Exp Scroll": 2
+        }
     },
     "8": {
+        "benefits": "Doubles all crop harvests (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 80000,
             "Red Onion": 100,
             "Strawberry": 100
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 40,
+            "Crafting": 40,
+            "Cooking": 40
+        },
+        "rewards": {
+            "Small Exp Scroll": 2
+        }
     },
     "9": {
+        "benefits": "Permanently doubles all experience gained in Discovery (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 90000,
             "Steel Bar": 200,
             "Wood": 300
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 45,
+            "Alchemy": 45,
+            "Discovery": 45
+        },
+        "rewards": {
+            "Small Exp Scroll": 2
+        }
     },
     "10": {
+        "benefits": "Unlocks the Treestone of Time which doubles the duration of potions",
         "resources": {
             "Coins": 100000,
             "Gold Coin": 30,
             "Energy Potion": 300
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 45,
+            "Crafting": 45,
+            "Cooking": 45
+        },
+        "rewards": {
+            "Small Exp Scroll": 2
+        }
     },
     "11": {
+        "benefits": "Gives a permanent hidden +25 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 200000,
             "Super Defence Potion": 200,
             "Hammer": 100
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 50,
+            "Alchemy": 50,
+            "Discovery": 50
+        },
+        "rewards": {
+            "Medium Exp Scroll": 1
+        }
     },
     "12": {
+        "benefits": "Unlocks an Alter at your Base Tower which you can use to heal yourself at anytime",
         "resources": {
             "Coins": 300000,
             "Crab": 500,
             "Raw Crab": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 50,
+            "Crafting": 50,
+            "Cooking": 50
+        },
+        "rewards": {
+            "Medium Exp Scroll": 1
+        }
     },
     "13": {
+        "benefits": "Permanently doubles all experience gained in Farming (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 400000,
             "Lemon": 250,
             "Red Onion": 250
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 55,
+            "Alchemy": 55,
+            "Discovery": 55
+        },
+        "rewards": {
+            "Medium Exp Scroll": 1
+        }
     },
     "14": {
+        "benefits": "Permanently doubles all experience gained in Fishing (Stacks with Premium Upgrades and Potions)",
         "resources": {
             "Coins": 500000,
             "Clownfish": 500,
             "Raw Clownfish": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 55,
+            "Crafting": 55,
+            "Cooking": 55
+        },
+        "rewards": {
+            "Medium Exp Scroll": 1
+        }
     },
     "15": {
+        "benefits": "Unlocks the Treestone of Mind which gives a permanent ability to choose your own Slayer task",
         "resources": {
             "Coins": 1000000,
             "Gold Coin": 45,
             "Yarn": 2000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 60,
+            "Alchemy": 60,
+            "Discovery": 60
+        },
+        "rewards": {
+            "Medium Exp Scroll": 1
+        }
     },
     "16": {
+        "benefits": "Gives a permanent hidden +25 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 1500000,
             "Super Defence Potion": 500,
             "Raft": 200
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 60,
+            "Crafting": 60,
+            "Cooking": 60
+        },
+        "rewards": {
+            "Medium Exp Scroll": 2
+        }
     },
     "17": {
+        "benefits": "Permanently doubles all experience gained in Crafting (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 2000000,
             "Diary": 100,
             "Notebook": 100
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 65,
+            "Alchemy": 65,
+            "Discovery": 65
+        },
+        "rewards": {
+            "Medium Exp Scroll": 2
+        }
     },
     "18": {
+        "benefits": "Doubles all crafting items made (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 2500000,
             "Anchor": 100,
             "Fish Hook": 200
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 65,
+            "Crafting": 65,
+            "Cooking": 65
+        },
+        "rewards": {
+            "Medium Exp Scroll": 2
+        }
     },
     "19": {
+        "benefits": "Permanently doubles all experience gained in Health (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 3000000,
             "Jellyfish": 200,
             "Super Health Potion": 200
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 70,
+            "Alchemy": 70,
+            "Discovery": 70
+        },
+        "rewards": {
+            "Medium Exp Scroll": 2
+        }
     },
     "20": {
+        "benefits": "Unlocks the Treestone of Soul which gives a permanent 10% chance to heal 100% of any damage taken",
         "resources": {
             "Coins": 5000000,
             "Gold Coin": 60,
             "Mithril Bar": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 70,
+            "Crafting": 70,
+            "Cooking": 70
+        },
+        "rewards": {
+            "Medium Exp Scroll": 2
+        }
     },
     "21": {
+        "benefits": "Gives a permanent hidden +50 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 6000000,
             "Super Strength Potion": 500,
             "Super Defence Potion": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 75,
+            "Alchemy": 75,
+            "Discovery": 75
+        },
+        "rewards": {
+            "Large Exp Scroll": 1
+        }
     },
     "22": {
+        "benefits": "Permanently doubles all experience gained in Cooking (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 7000000,
             "Pufferfish": 500,
             "Raw Pufferfish": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 75,
+            "Crafting": 75,
+            "Cooking": 75
+        },
+        "rewards": {
+            "Large Exp Scroll": 1
+        }
     },
     "23": {
+        "benefits": "Permanently doubles all experience gained in Alchemy (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 8000000,
             "Extreme Energy Potion": 300,
             "Crate": 250
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 80,
+            "Alchemy": 80,
+            "Discovery": 80
+        },
+        "rewards": {
+            "Large Exp Scroll": 1
+        }
     },
     "24": {
+        "benefits": "Permanently doubles all experience gained in Attack (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 9000000,
             "Workbench": 250,
             "Rope": 1000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 80,
+            "Crafting": 80,
+            "Cooking": 80
+        },
+        "rewards": {
+            "Large Exp Scroll": 1
+        }
     },
     "25": {
+        "benefits": "Unlocks the Treestone of Reality which gives a permanent 25% chance to double all monster drops",
         "resources": {
             "Coins": 10000000,
             "Gold Coin": 75,
             "Dragon Leather": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 85,
+            "Alchemy": 85,
+            "Discovery": 85
+        },
+        "rewards": {
+            "Large Exp Scroll": 1
+        }
     },
     "26": {
+        "benefits": "Gives a permanent hidden +100 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 15000000,
             "Extreme Attack Potion": 750,
             "Extreme Defence Potion": 750
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 85,
+            "Crafting": 85,
+            "Cooking": 85
+        },
+        "rewards": {
+            "Large Exp Scroll": 2
+        }
     },
     "27": {
+        "benefits": "Permanently doubles all experience gained in Defence (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 20000000,
             "Extreme Defence Potion": 750,
             "Mithril Top": 200
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 90,
+            "Alchemy": 90,
+            "Discovery": 90
+        },
+        "rewards": {
+            "Large Exp Scroll": 2
+        }
     },
     "28": {
+        "benefits": "Permanently doubles all experience gained in Strength (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 25000000,
             "Extreme Strength Potion": 500,
             "Mithril Axe": 250
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 90,
+            "Crafting": 90,
+            "Cooking": 90
+        },
+        "rewards": {
+            "Large Exp Scroll": 3
+        }
     },
     "29": {
+        "benefits": "Permanently doubles all experience gained in Slayer (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 30000000,
             "Bestiary": 500,
             "Extreme Health Potion": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 95,
+            "Alchemy": 95,
+            "Discovery": 95
+        },
+        "rewards": {
+            "Large Exp Scroll": 4
+        }
     },
     "30": {
+        "benefits": "Unlocks the Treestone of Power which gives a permanent 150% damage bonus",
         "resources": {
             "Coins": 100000000,
             "Gold Coin": 100,
             "Extreme Strength Potion": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 95,
+            "Crafting": 95,
+            "Cooking": 95
+        },
+        "rewards": {
+            "Large Exp Scroll": 5
+        }
     },
     "31": {
+        "benefits": "Permanently doubles all experience gained in Mining (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 120000000,
             "Blue Shrimp": 5000,
             "Blue Crab": 5000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Fishing": 99,
+            "Alchemy": 99,
+            "Discovery": 99
+        },
+        "rewards": {
+            "Large Exp Scroll": 6
+        }
     },
     "32": {
+        "benefits": "Gives a permanent hidden +100 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 140000000,
             "Coin Purse": 1000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Farming": 99,
+            "Crafting": 99,
+            "Cooking": 99
+        },
+        "rewards": {
+            "Large Exp Scroll": 7
+        }
     },
     "33": {
+        "benefits": "Increases the max upgradable inventory by 20 spaces",
         "resources": {
             "Coins": 160000000,
             "Extreme Energy Potion": 2000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Attack": 99,
+            "Strength": 99,
+            "Defence": 99
+        },
+        "rewards": {
+            "Large Exp Scroll": 8
+        }
     },
     "34": {
+        "benefits": "Permanently doubles all experience gained in Thieving (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 180000000,
             "Lightning Potion": 1000,
             "Dragon Rider Greaves": 1000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 105,
+            "Cooking": 105,
+            "Farming": 105
+        },
+        "rewards": {
+            "Large Exp Scroll": 9
+        }
     },
     "35": {
+        "benefits": "Loot from Combat is automatically collected upon death, instead of lost",
         "resources": {
             "Coins": 200000000,
             "Blueberry": 10000,
             "Cedar Log": 2500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 105,
+            "Firemaking": 105,
+            "Crafting": 105
+        },
+        "rewards": {
+            "Large Exp Scroll": 10
+        }
     },
     "36": {
+        "benefits": "Gives a permanent hidden +150 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 220000000,
             "Super Power Stone": 5,
             "Elder Log": 5000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 108,
+            "Cooking": 108,
+            "Farming": 108
+        },
+        "rewards": {
+            "Queens Armour Fragment": 10
+        }
     },
     "37": {
+        "benefits": "Doubles all Logs gained from Forestry",
         "resources": {
             "Coins": 240000000,
             "Crystal Chest": 2000,
             "Crystal Key": 2000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 108,
+            "Firemaking": 108,
+            "Crafting": 108
+        },
+        "rewards": {
+            "Queens Armour Fragment": 10
+        }
     },
     "38": {
+        "benefits": "Permanently doubles all experience gained in Forestry (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 260000000,
             "Blue Thread": 25000,
             "Redwood Log": 5000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 110,
+            "Cooking": 110,
+            "Farming": 110
+        },
+        "rewards": {
+            "Queens Armour Fragment": 10
+        }
     },
     "39": {
+        "benefits": "Gives a permanent hidden +150 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 280000000,
             "Golden Necklace": 500,
             "Fish Soup": 2500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 110,
+            "Firemaking": 110,
+            "Crafting": 110
+        },
+        "rewards": {
+            "Queens Armour Fragment": 10
+        }
     },
     "40": {
+        "benefits": "Increases the max upgradable inventory by 20 spaces",
         "resources": {
             "Coins": 300000000,
             "Gold Coin": 150,
             "Ember Fern": 5000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 112,
+            "Cooking": 112,
+            "Farming": 112
+        },
+        "rewards": {
+            "Queens Armour Fragment": 10
+        }
     },
     "41": {
+        "benefits": "Gives a permanent hidden +200 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 350000000,
             "Sunburst Flower": 10000,
             "Fish Steak": 2500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 112,
+            "Firemaking": 112,
+            "Crafting": 112
+        },
+        "rewards": {
+            "Queens Weapon Fragment": 5
+        }
     },
     "42": {
+        "benefits": "Permanently doubles all experience gained in Firemaking (Stacks with Premium Upgrades)",
         "resources": {
             "Coins": 400000000,
             "Rock Skin Potion": 500,
             "Bone Stew": 3000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 115,
+            "Cooking": 115,
+            "Farming": 115
+        },
+        "rewards": {
+            "Queens Weapon Fragment": 10
+        }
     },
     "43": {
+        "benefits": "Doubles all ores gained from Mining",
         "resources": {
             "Coins": 450000000,
             "Liquid Death Potion": 500,
             "Thieving Potion": 2500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 115,
+            "Firemaking": 115,
+            "Crafting": 115
+        },
+        "rewards": {
+            "Queens Weapon Fragment": 15
+        }
     },
     "44": {
+        "benefits": "Doubles all Coins gained from Thieving",
         "resources": {
             "Coins": 500000000,
             "Mahogany Log": 5000,
             "Cherry Blossom Log": 5000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 118,
+            "Cooking": 118,
+            "Farming": 118
+        },
+        "rewards": {
+            "Queens Weapon Fragment": 20
+        }
     },
     "45": {
+        "benefits": "Grants a permanent 20% damage reduction",
         "resources": {
             "Coins": 550000000,
             "Gold Coin": 200,
             "Coin Purse": 10000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 118,
+            "Firemaking": 118,
+            "Crafting": 118
+        },
+        "rewards": {
+            "Queens Weapon Fragment": 25
+        }
     },
     "46": {
+        "benefits": "Gives a permanent hidden +250 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 600000000,
             "Mushroom Soup": 5000,
             "Mahogany Log": 7500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 120,
+            "Cooking": 120,
+            "Farming": 120
+        },
+        "rewards": {
+            "Kings Weapon Fragment": 2
+        }
     },
     "47": {
+        "benefits": "Increases the max upgradable inventory by 20 spaces",
         "resources": {
             "Coins": 650000000,
             "Ultimate Power Potion": 2500,
             "Extreme Power Potion": 4000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 120,
+            "Firemaking": 120,
+            "Crafting": 120
+        },
+        "rewards": {
+            "Kings Weapon Fragment": 5
+        }
     },
     "48": {
+        "benefits": "Grants a permanent 10% chance to reflect damage back to the enemy when hit",
         "resources": {
             "Coins": 700000000,
             "Dragon Skull": 1000,
             "Dragon Tail": 1000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 125,
+            "Cooking": 125,
+            "Farming": 125
+        },
+        "rewards": {
+            "Kings Weapon Fragment": 10
+        }
     },
     "49": {
+        "benefits": "Doubles the duration of Potions (Stackable with previous upgrades)",
         "resources": {
             "Coins": 750000000,
             "Coin Purse": 10000,
             "Crab Soup": 10000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 125,
+            "Firemaking": 125,
+            "Crafting": 125
+        },
+        "rewards": {
+            "Kings Weapon Fragment": 25
+        }
     },
     "50": {
+        "benefits": "Gives a permanent hidden +500 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 1000000000,
             "Invincibility Potion": 2500,
             "Golden Touch Potion": 2500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Alchemy": 130,
+            "Cooking": 130,
+            "Farming": 130
+        },
+        "rewards": {
+            "Kings Weapon Fragment": 50
+        }
     },
     "51": {
+        "benefits": "Increases Damage by 10% when using Archery",
         "resources": {
             "Coins": 1100000000,
             "Gold Coin": 10000,
             "Ring Fragments": 500
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Forestry": 130,
+            "Firemaking": 130,
+            "Crafting": 130
+        },
+        "rewards": {
+            "": 20
+        }
     },
     "52": {
+        "benefits": "Permanently grants a 10% chance to find double Ring Fragments while Crafting",
         "resources": {
             "Coins": 1200000000,
             "Necromancer Top": 50,
             "Necromancer Greaves": 50
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Slayer": 99
+        },
+        "rewards": {
+            "Enhancement Ticket": 5
+        }
     },
     "53": {
+        "benefits": "Gives a permanent +250 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 1300000000,
             "Mystic Robe": 25,
             "Mystic Bottoms": 25
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Slayer": 110
+        },
+        "rewards": {
+            "Soul Gem": 50
+        }
     },
     "54": {
+        "benefits": "Increases the daily trade cap by 25",
         "resources": {
             "Coins": 1400000000,
             "Scythe of Demeter": 10,
             "Restoration Fragment 4": 10
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Slayer": 120
+        },
+        "rewards": {
+            "Casket of Treasure": 100
+        }
     },
     "55": {
+        "benefits": "Gives a permanent +250 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 1500000000,
             "Gold Coin": 25000,
             "Ancient Elven Book": 5
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": {
+            "Slayer": 130
+        },
+        "rewards": {
+            "Challenge Coins": 20
+        }
     },
     "56": {
+        "benefits": "Gives a permanent 20% increased chance to find Soul Gems",
         "resources": {
             "Coins": 1600000000,
             "Challenger Boots": 2,
             "Challenger Gloves": 2
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Enhancement Ticket": 5
+        }
     },
     "57": {
+        "benefits": "Lowers the amount of Enhancement Tickets required for items by 20% (Rounds down)",
         "resources": {
             "Coins": 1700000000,
             "Drakes Diary": 15,
             "Elven Grace Potion": 15000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Massive Exp Scroll": 1
+        }
     },
     "58": {
+        "benefits": "Grants a permanent 20% chance to double all cooked food (Stacks with the Chefs Hat)",
         "resources": {
             "Coins": 1800000000,
             "Ring Fragments": 1000,
             "Barbarian Top": 50
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Casket of Treasure": 100
+        }
     },
     "59": {
+        "benefits": "Gives a permanent +250 Bonus to all combat stats (Stackable)",
         "resources": {
             "Coins": 1900000000,
             "Challenger Hat": 2,
             "Burnt Lobster": 10000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Elven Weapon Fragment": 100
+        }
     },
     "60": {
+        "benefits": "Permanently increases Attack speed by 20%",
         "resources": {
             "Coins": 2000000000,
             "Gold Coin": 100000,
             "Eternal Ring": 5
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Challenge Coins": 20
+        }
     },
     "61": {
+        "benefits": "Completing all your Daily Challenges also rewards 50 Treasure Caskets",
         "resources": {
             "Coins": 2000000000,
             "Large Exp Scroll": 250,
             "Necklace of Health": 10
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Enhancement Ticket": 5
+        }
     },
     "62": {
+        "benefits": "Increases the damage cap to 800k",
         "resources": {
-            "Coins": 2000000000,
+            "": 2000000000,
             "Challenger Legs": 2,
             "Challenger Top": 2
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Soul Gem": 50
+        }
     },
     "63": {
+        "benefits": "Grants a permanent 25% chance to save Potions when drinking them",
         "resources": {
             "Coins": 2000000000,
             "Ring Fragments": 2000,
             "Ring of Renewal": 25
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Elven Weapon Fragment": 100
+        }
     },
     "64": {
+        "benefits": "Reduces incoming damage by 15% when fighting in the Kingdom of the Gods",
         "resources": {
             "Coins": 2000000000,
             "Primal Gloves": 2,
             "Primal Boots": 2
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Massive Exp Scroll": 1
+        }
     },
     "65": {
+        "benefits": "Increases the chance of finding Secret Rares by 5% (Stacks with Wishes)",
         "resources": {
             "Coins": 2000000000,
             "Gold Coin": 500000,
             "Chefs Hat": 5
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Casket of Treasure": 250
+        }
     },
     "66": {
+        "benefits": "Permanently lowers enemy spawn times by 20%",
         "resources": {
             "Coins": 2000000000,
             "Primal Legs": 2,
             "Primal Top": 2
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Elven Armour Fragment": 500
+        }
     },
     "67": {
+        "benefits": "Drinking Energy, Super Energy or Extreme Energy Potions provides double the usual energy",
         "resources": {
             "Coins": 2000000000,
             "Ring of Life": 20,
             "Ring of Death": 20
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Elven Weapon Fragment": 100
+        }
     },
     "68": {
+        "benefits": "Gives a permanent 20% chance to find double Soul Gems (Stacks with Ring of Souls)",
         "resources": {
             "Coins": 2000000000,
             "Ring Fragments": 2500,
             "Wooden Stick": 5
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Soul Gem": 50
+        }
     },
     "69": {
+        "benefits": "Permanently reduces the amount of monsters assigned by Slayer Masters by 20%",
         "resources": {
             "Coins": 2000000000,
             "Blessed Eternal Sacrifice": 5,
             "Goblin Cleaver": 50
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Massive Exp Scroll": 5
+        }
     },
     "70": {
+        "benefits": "Increases the damage cap to 1m",
         "resources": {
             "Coins": 2000000000,
             "Gold Coin": 1000000,
             "Cognium Ring": 2
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Casket of Treasure": 250
+        }
     },
     "71": {
+        "benefits": "Removes Stone from the Treasure Casket drop table, permanently increasing the rate of Gods Items",
         "resources": {
             "Coins": 2000000000,
             "Necklace of Amaran": 1,
             "Mystic Staff (E)": 1
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Elven Weapon Fragment": 500
+        }
     },
     "72": {
+        "benefits": "Increases drop rate of Treasure Scrolls by 20%",
         "resources": {
             "Coins": 2000000000,
             "Hatchet of the Gods": 10,
             "Rabbits Foot": 25
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Soul Gem": 100
+        }
     },
     "73": {
+        "benefits": "Gives an extra Challenge Coin for each Daily Challenge you complete",
         "resources": {
             "Coins": 2000000000,
             "Burnt Shrimp": 25000,
             "Burnt Snail": 25000
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Massive Exp Scroll": 5
+        }
     },
     "74": {
+        "benefits": "Treasure Scrolls now convert to Caskets at a rate of 2:1 instead of 3:1",
         "resources": {
             "Coins": 2000000000,
             "Ring Fragments": 5000,
             "Ring of Souls (E)": 1
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Casket of Treasure": 1000
+        }
     },
     "75": {
+        "benefits": "Grants you the power of Sleepless storage, giving your Tower Stash unlimited spaces.",
         "resources": {
             "Coins": 2000000000,
             "Gold Coin": 5000000,
             "Eternal Berserker Ring": 10
         },
-        "requirements": {},
-        "rewards": {}
+        "requirements": [],
+        "rewards": {
+            "Casket of Treasure": 5000
+        }
     }
 }
