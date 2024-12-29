@@ -37,9 +37,9 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
     $expandedQuestLevels = array_unique($expandedQuestLevels);
 
     foreach ($expandedNeeds as $need) {
-        if (isset($baseCampData[$need])) {
-            $results[$need] = $baseCampData[$need];
-            foreach ($baseCampData[$need] as $key => $value) {
+        if (isset($baseCampData[$need]['resources'])) {
+            $results[$need] = $baseCampData[$need]['resources'];
+            foreach ($baseCampData[$need]['resources'] as $key => $value) {
                 if (is_numeric($value)) {
                     if (!isset($totals[$key])) {
                         $totals[$key] = 0;
@@ -77,4 +77,3 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
         }
     }
 }
-?>
