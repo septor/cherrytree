@@ -1,523 +1,1649 @@
-
 {
     "farmer": {
         "1": {
-            "Tomato": 25
+            "resources": {
+                "Tomato": 25
+            },
+            "requirements": {},
+            "rewards": {
+                "Farming Exp": 1000
+            }
         },
         "2": {
-            "Apple": 25
+            "resources": {
+                "Apple": 25
+            },
+            "requirements": {
+                "Farming": 10
+            },
+            "rewards": {
+                "Farming Exp": 10000
+            }
         },
         "3": {
-            "Red Onion": 25
+            "resources": {
+                "Red Onion": 25
+            },
+            "requirements": {
+                "Farming": 30
+            },
+            "rewards": {
+                "Farming Exp": 50000
+            }
         },
         "4": {
-            "Cherries": 50
+            "resources": {
+                "Cherries": 50
+            },
+            "requirements": {
+                "Farming": 60
+            },
+            "rewards": {
+                "Farming Exp": 100000
+            }
         },
         "5": {
-            "Grapes": 100
+            "resources": {
+                "Grapes": 100
+            },
+            "requirements": {
+                "Farming": 90
+            },
+            "rewards": {
+                "Farming Exp": 2000000
+            }
         }
     },
     "crafter": {
         "1": {
-            "Rope": 10
+            "resources": {
+                "Rope": 10
+            },
+            "requirements": {},
+            "rewards": {
+                "Crafting Exp": 1000
+            }
         },
         "2": {
-            "Satchel": 25
+            "resources": {
+                "Satchel": 25
+            },
+            "requirements": {
+                "Crafting": 10
+            },
+            "rewards": {
+                "Crafting Exp": 10000
+            }
         },
         "3": {
-            "Iron Top": 25
+            "resources": {
+                "Iron Top": 25
+            },
+            "requirements": {
+                "Crafting": 30
+            },
+            "rewards": {
+                "Crafting Exp": 50000
+            }
         },
         "4": {
-            "Scarf": 50
+            "resources": {
+                "Scarf": 50
+            },
+            "requirements": {
+                "Crafting": 60
+            },
+            "rewards": {
+                "Crafting Exp": 100000
+            }
         },
         "5": {
-            "Mithril Top": 100
+            "resources": {
+                "Mithril Top": 100
+            },
+            "requirements": {
+                "Crafting": 90
+            },
+            "rewards": {
+                "Crafting Exp": 2000000
+            }
         }
     },
     "alchemy": {
         "1": {
-            "Akomeric": 25
+            "resources": {
+                "Akomeric": 25
+            },
+            "requirements": {},
+            "rewards": {
+                "Alchemy Exp": 1000
+            }
         },
         "2": {
-            "Bloodroot": 50
+            "resources": {
+                "Bloodroot": 50
+            },
+            "requirements": {
+                "Alchemy": 10
+            },
+            "rewards": {
+                "Alchemy Exp": 10000
+            }
         },
         "3": {
-            "Hyssop": 50
+            "resources": {
+                "Hyssop": 50
+            },
+            "requirements": {
+                "Alchemy": 30
+            },
+            "rewards": {
+                "Alchemy Exp": 50000
+            }
         },
         "4": {
-            "Sage Leaf": 100
+            "resources": {
+                "Sage Leaf": 100
+            },
+            "requirements": {
+                "Alchemy": 60
+            },
+            "rewards": {
+                "Alchemy Exp": 100000
+            }
         },
         "5": {
-            "Vissinel": 150
+            "resources": {
+                "Vissinel": 150
+            },
+            "requirements": {
+                "Alchemy": 90
+            },
+            "rewards": {
+                "Alchemy Exp": 2000000
+            }
         }
     },
     "fishing": {
         "1": {
-            "Raw Shrimp": 20
+            "resources": {
+                "Raw Shrimp": 20
+            },
+            "requirements": {},
+            "rewards": {
+                "Fishing Exp": 1000
+            }
         },
         "2": {
-            "Raw Carp": 50
+            "resources": {
+                "Raw Carp": 50
+            },
+            "requirements": {
+                "Fishing": 10
+            },
+            "rewards": {
+                "Fishing Exp": 10000
+            }
         },
         "3": {
-            "Raw Perch": 75
+            "resources": {
+                "Raw Perch": 75
+            },
+            "requirements": {
+                "Fishing": 30
+            },
+            "rewards": {
+                "Fishing Exp": 50000
+            }
         },
         "4": {
-            "Raw Jellyfish": 150
+            "resources": {
+                "Raw Jellyfish": 150
+            },
+            "requirements": {
+                "Fishing": 60
+            },
+            "rewards": {
+                "Fishing Exp": 100000
+            }
         },
         "5": {
-            "Raw Shark": 250
+            "resources": {
+                "Raw Shark": 250
+            },
+            "requirements": {
+                "Fishing": 90
+            },
+            "rewards": {
+                "Fishing Exp": 2000000
+            }
         }
     },
     "warrior": {
         "1": {
-            "Bones": 25
+            "resources": {
+                "Bones": 25
+            },
+            "requirements": {},
+            "rewards": {
+                "Attack Exp": 1000,
+                "Strength Exp": 1000,
+                "Defence Exp": 1000
+            }
         },
         "2": {
-            "Bacon": 50,
-            "Red Chest": 5
+            "resources": {
+                "Bones": 75,
+                "Hide": 25
+            },
+            "requirements": {
+                "Attack": 10
+            },
+            "rewards": {
+                "Attack Exp": 10000,
+                "Strength Exp": 10000,
+                "Defence Exp": 10000
+            }
+        },
+        "3": {
+            "resources": {
+                "Bacon": 50,
+                "Red Chest": 5
+            },
+            "requirements": {
+                "Strength": 30
+            },
+            "rewards": {
+                "Attack Exp": 50000,
+                "Strength Exp": 50000,
+                "Defence Exp": 50000
+            }
         },
         "4": {
-            "Ram Skull": 1,
-            "Honey": 10
+            "resources": {
+                "Ram Skull": 1,
+                "Honey": 10
+            },
+            "requirements": {
+                "Defence": 60
+            },
+            "rewards": {
+                "Attack Exp": 100000,
+                "Strength Exp": 100000,
+                "Defence Exp": 100000
+            }
         },
         "5": {
-            "Golden Necklace": 1,
-            "Dragon Plate": 10,
-            "Dragon Leather": 10
+            "resources": {
+                "Golden Necklace": 1,
+                "Dragon Plate": 10,
+                "Dragon Leather": 10
+            },
+            "requirements": {
+                "Attack": 90,
+                "Strength": 90,
+                "Defence": 90
+            },
+            "rewards": {
+                "Attack Exp": 2000000,
+                "Strength Exp": 2000000,
+                "Defence Exp": 2000000
+            }
         }
     },
     "wealth": {
         "1": {
-            "Coins": 1000
+            "resources": {
+                "Coins": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Small Exp Scroll": 1,
+                "Gold Coin": 5
+            }
         },
         "2": {
-            "Coins": 10000
+            "resources": {
+                "Coins": 10000
+            },
+            "requirements": {},
+            "rewards": {
+                "Small Exp Scroll": 3,
+                "Gold Coin": 10
+            }
         },
         "3": {
-            "Coins": 100000
+            "resources": {
+                "Coins": 100000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 1,
+                "Gold Coin": 25
+            }
         },
         "4": {
-            "Coins": 500000
+            "resources": {
+                "Coins": 500000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 3,
+                "Gold Coin": 40
+            }
         },
         "5": {
-            "Coins": 1000000
+            "resources": {
+                "Coins": 1000000
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 10,
+                "Gold Coin": 75
+            }
         },
         "6": {
-            "Coins": 10000000
+            "resources": {
+                "Coins": 10000000
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 12,
+                "Gold Coin": 75
+            }
         },
         "7": {
-            "Coins": 100000000
+            "resources": {
+                "Coins": 100000000
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 14,
+                "Gold Coin": 75
+            }
         },
         "8": {
-            "Coins": 1000000000
+            "resources": {
+                "Coins": 1000000000
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 16,
+                "Gold Coin": 75
+            }
         },
         "9": {
-            "Coins": 10000000000
+            "resources": {
+                "Coins": 10000000000
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 18,
+                "Gold Coin": 75
+            }
         },
         "10": {
-            "Coins": 100000000000
+            "resources": {
+                "Coins": 100000000000
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 20,
+                "Gold Coin": 75
+            }
         }
     },
     "cooking": {
         "1": {
-            "Shrimp": 20
+            "resources": {
+                "Shrimp": 20
+            },
+            "requirements": {},
+            "rewards": {
+                "Cooking Exp": 1000
+            }
         },
         "2": {
-            "Carp": 50
+            "resources": {
+                "Carp": 50
+            },
+            "requirements": {
+                "Cooking": 10
+            },
+            "rewards": {
+                "Cooking Exp": 10000
+            }
         },
         "3": {
-            "Perch": 100
+            "resources": {
+                "Perch": 100
+            },
+            "requirements": {
+                "Cooking": 30
+            },
+            "rewards": {
+                "Cooking Exp": 50000
+            }
         },
         "4": {
-            "Jellyfish": 200
+            "resources": {
+                "Jellyfish": 200
+            },
+            "requirements": {
+                "Cooking": 60
+            },
+            "rewards": {
+                "Cooking Exp": 100000
+            }
         },
         "5": {
-            "Shark": 500
+            "resources": {
+                "Shark": 500
+            },
+            "requirements": {
+                "Cooking": 90
+            },
+            "rewards": {
+                "Cooking Exp": 2000000
+            }
         },
         "6": {
-            "Fish Wedge": 250
+            "resources": {
+                "Fish Wedge": 250
+            },
+            "requirements": {
+                "Cooking": 105
+            },
+            "rewards": {
+                "Cooking Exp": 3000000
+            }
         },
         "7": {
-            "Fish Soup": 250
+            "resources": {
+                "Fish Soup": 250
+            },
+            "requirements": {
+                "Cooking": 110
+            },
+            "rewards": {
+                "Cooking Exp": 5000000
+            }
         },
         "8": {
-            "Bone Stew": 300
+            "resources": {
+                "Bone Stew": 300
+            },
+            "requirements": {
+                "Cooking": 115
+            },
+            "rewards": {
+                "Cooking Exp": 75000000
+            }
         },
         "9": {
-            "Mushroom Soup": 400
+            "resources": {
+                "Mushroom Soup": 400
+            },
+            "requirements": {
+                "Cooking": 120
+            },
+            "rewards": {
+                "Cooking Exp": 10000000
+            }
         },
         "10": {
-            "Crab Soup": 500
+            "resources": {
+                "Crab Soup": 500
+            },
+            "requirements": {
+                "Cooking": 125
+            },
+            "rewards": {
+                "Cooking Exp": 15000000
+            }
         }
     },
     "i like knitting": {
         "1": {
-            "Thread": 2000
+            "resources": {
+                "Thread": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 1,
+                "Gold Coin": 5
+            }
         },
         "2": {
-            "Thread": 2000
+            "resources": {
+                "Thread": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 1
+            }
         },
         "3": {
-            "Thread": 2000
+            "resources": {
+                "Thread": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 1
+            }
         },
         "4": {
-            "Thread": 2000
+            "resources": {
+                "Thread": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 2,
+                "Gold Coin": 10
+            }
         },
         "5": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 2
+            }
         },
         "6": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 2
+            }
         },
         "7": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 3,
+                "Gold Coin": 20
+            }
         },
         "8": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 3
+            }
         },
         "9": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 3
+            }
         },
         "10": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 3,
+                "Gold Coin": 30
+            }
         },
         "11": {
-            "Thread": 2000,
-            "Yarn": 1000
+            "resources": {
+                "Thread": 2000,
+                "Yarn": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 4
+            }
         },
         "12": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 4
+            }
         },
         "13": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5,
+                "Gold Coin": 50
+            }
         },
         "14": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5
+            }
         },
         "15": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5
+            }
         },
         "16": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5,
+                "Gold Coin": 75
+            }
         },
         "17": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5
+            }
         },
         "18": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5
+            }
         },
         "19": {
-            "Thread": 5000,
-            "Yarn": 2000
+            "resources": {
+                "Thread": 5000,
+                "Yarn": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5
+            }
         },
         "20": {
-            "Thread": 10000,
-            "Yarn": 5000
+            "resources": {
+                "Thread": 10000,
+                "Yarn": 5000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 10,
+                "Gold Coin": 150
+            }
         }
     },
     "the hoarder": {
         "1": {
-            "Wooden Plank": 250
+            "resources": {
+                "Wooden Plank": 250
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 1
+            }
         },
         "2": {
-            "Potato Sack": 250
+            "resources": {
+                "Potato Sack": 250
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 2
+            }
         },
         "3": {
-            "Wooden Plank": 250
+            "resources": {
+                "Wooden Plank": 250
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 3
+            }
         },
         "4": {
-            "Barrel": 500
+            "resources": {
+                "Barrel": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 4
+            }
         },
         "5": {
-            "Satchel": 500
+            "resources": {
+                "Satchel": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 5
+            }
         },
         "6": {
-            "Bestiary": 500
+            "resources": {
+                "Bestiary": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 6
+            }
         },
         "7": {
-            "Waterskin": 1000
+            "resources": {
+                "Waterskin": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 7
+            }
         },
         "8": {
-            "Scissors": 1000
+            "resources": {
+                "Scissors": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 8
+            }
         },
         "9": {
-            "Coin Purse": 1000
+            "resources": {
+                "Coin Purse": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 9
+            }
         },
         "10": {
-            "Crate": 1500
+            "resources": {
+                "Crate": 1500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 10
+            }
         },
         "11": {
-            "Raft": 1500
+            "resources": {
+                "Raft": 1500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 11
+            }
         },
         "12": {
-            "Diary": 1500
+            "resources": {
+                "Diary": 1500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 12
+            }
         },
         "13": {
-            "Hammer": 2000
+            "resources": {
+                "Hammer": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 13
+            }
         },
         "14": {
-            "Notebook": 2000
+            "resources": {
+                "Notebook": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 14
+            }
         },
         "15": {
-            "Hourglass": 2000
+            "resources": {
+                "Hourglass": 2000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 15
+            }
         },
         "16": {
-            "Leather Bag": 2500
+            "resources": {
+                "Leather Bag": 2500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 16
+            }
         },
         "17": {
-            "Scarf": 2500
+            "resources": {
+                "Scarf": 2500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 17
+            }
         },
         "18": {
-            "Scroll": 2500
+            "resources": {
+                "Scroll": 2500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 18
+            }
         },
         "19": {
-            "Workbench": 5000
+            "resources": {
+                "Workbench": 5000
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 19
+            }
         },
         "20": {
-            "Wine": 500
+            "resources": {
+                "Wine": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Medium Exp Scroll": 20
+            }
         }
     },
     "potions forever": {
         "1": {
-            "Attack Potion": 25
+            "resources": {
+                "Attack Potion": 25
+            },
+            "requirements": {},
+            "rewards": {
+                "Alchemy Exp": 500
+            }
         },
         "2": {
-            "Defence Potion": 25
+            "resources": {
+                "Defence Potion": 25
+            },
+            "requirements": {
+                "Alchemy": 5
+            },
+            "rewards": {
+                "Alchemy Exp": 750
+            }
         },
         "3": {
-            "Strength Potion": 25
+            "resources": {
+                "Strength Potion": 25
+            },
+            "requirements": {
+                "Alchemy": 10
+            },
+            "rewards": {
+                "Alchemy Exp": 1000
+            }
         },
         "4": {
-            "Fishing Potion": 50
+            "resources": {
+                "Fishing Potion": 50
+            },
+            "requirements": {
+                "Alchemy": 18
+            },
+            "rewards": {
+                "Alchemy Exp": 1500
+            }
         },
         "5": {
-            "Health Potion": 50
+            "resources": {
+                "Health Potion": 50
+            },
+            "requirements": {
+                "Alchemy": 25
+            },
+            "rewards": {
+                "Alchemy Exp": 2000
+            }
         },
         "6": {
-            "Energy Potion": 50
+            "resources": {
+                "Energy Potion": 50
+            },
+            "requirements": {
+                "Alchemy": 32
+            },
+            "rewards": {
+                "Alchemy Exp": 2500
+            }
         },
         "7": {
-            "Super Attack Potion": 100
+            "resources": {
+                "Super Attack Potion": 100
+            },
+            "requirements": {
+                "Alchemy": 38
+            },
+            "rewards": {
+                "Alchemy Exp": 3000
+            }
         },
         "8": {
-            "Super Fishing Potion": 100
+            "resources": {
+                "Super Fishing Potion": 100
+            },
+            "requirements": {
+                "Alchemy": 40
+            },
+            "rewards": {
+                "Alchemy Exp": 5000
+            }
         },
         "9": {
-            "Super Defence Potion": 100
+            "resources": {
+                "Super Defence Potion": 100
+            },
+            "requirements": {
+                "Alchemy": 45
+            },
+            "rewards": {
+                "Alchemy Exp": 10000
+            }
         },
         "10": {
-            "Super Energy Potion": 200
+            "resources": {
+                "Super Energy Potion": 200
+            },
+            "requirements": {
+                "Alchemy": 52
+            },
+            "rewards": {
+                "Alchemy Exp": 15000
+            }
         },
         "11": {
-            "Super Strength Potion": 200
+            "resources": {
+                "Super Strength Potion": 200
+            },
+            "requirements": {
+                "Alchemy": 57
+            },
+            "rewards": {
+                "Alchemy Exp": 20000
+            }
         },
         "12": {
-            "Super Health Potion": 250
+            "resources": {
+                "Super Health Potion": 250
+            },
+            "requirements": {
+                "Alchemy": 62
+            },
+            "rewards": {
+                "Alchemy Exp": 25000
+            }
         },
         "13": {
-            "Luck Potion": 250
+            "resources": {
+                "Luck Potion": 250
+            },
+            "requirements": {
+                "Alchemy": 65
+            },
+            "rewards": {
+                "Alchemy Exp": 50000
+            }
         },
         "14": {
-            "Extreme Energy Potion": 250
+            "resources": {
+                "Extreme Energy Potion": 250
+            },
+            "requirements": {
+                "Alchemy": 70
+            },
+            "rewards": {
+                "Alchemy Exp": 75000
+            }
         },
         "15": {
-            "Extreme Attack Potion": 500
+            "resources": {
+                "Extreme Attack Potion": 500
+            },
+            "requirements": {
+                "Alchemy": 76
+            },
+            "rewards": {
+                "Alchemy Exp": 100000
+            }
         },
         "16": {
-            "Extreme Defence Potion": 500
+            "resources": {
+                "Extreme Defence Potion": 500
+            },
+            "requirements": {
+                "Alchemy": 80
+            },
+            "rewards": {
+                "Alchemy Exp": 250000
+            }
         },
         "17": {
-            "Extreme Strength Potion": 500
+            "resources": {
+                "Extreme Strength Potion": 500
+            },
+            "requirements": {
+                "Alchemy": 85
+            },
+            "rewards": {
+                "Alchemy Exp": 500000
+            }
         },
         "18": {
-            "Extreme Health Potion": 1000
+            "resources": {
+                "Extreme Health Potion": 1000
+            },
+            "requirements": {
+                "Alchemy": 90
+            },
+            "rewards": {
+                "Alchemy Exp": 1000000
+            }
         },
         "19": {
-            "Insta Kill Potion": 50
+            "resources": {
+                "Insta Kill Potion": 50
+            },
+            "requirements": {
+                "Alchemy": 99
+            },
+            "rewards": {
+                "Alchemy Exp": 5000000
+            }
         }
     },
     "death to all": {
         "1": {
-            "Bones": 500
+            "resources": {
+                "Bones": 500
+            },
+            "requirements": {
+                "Attack": 60,
+                "Strength": 60,
+                "Defence": 60
+            },
+            "rewards": {
+                "Gold Coin": 10
+            }
         },
         "2": {
-            "Bones": 1000
+            "resources": {
+                "Bones": 1000
+            },
+            "requirements": {
+                "Attack": 70,
+                "Strength": 70,
+                "Defence": 70
+            },
+            "rewards": {
+                "Gold Coin": 15
+            }
         },
         "3": {
-            "Bones": 2500
+            "resources": {
+                "Bones": 2500
+            },
+            "requirements": {
+                "Attack": 80,
+                "Strength": 80,
+                "Defence": 80
+            },
+            "rewards": {
+                "Gold Coin": 20
+            }
         },
         "4": {
-            "Dragon Bones": 1000
+            "resources": {
+                "Dragon Bones": 1000
+            },
+            "requirements": {
+                "Attack": 90,
+                "Strength": 90,
+                "Defence": 90
+            },
+            "rewards": {
+                "Gold Coin": 25
+            }
         },
         "5": {
-            "Dragon Bones": 2500
+            "resources": {
+                "Dragon Bones": 2500
+            },
+            "requirements": {
+                "Attack": 95,
+                "Strength": 95,
+                "Defence": 95
+            },
+            "rewards": {
+                "Gold Coin": 35
+            }
         },
         "6": {
-            "Dragon Bones": 5000
+            "resources": {
+                "Dragon Bones": 5000
+            },
+            "requirements": {
+                "Attack": 99,
+                "Strength": 99,
+                "Defence": 99
+            },
+            "rewards": {
+                "Gold Coin": 60
+            }
         }
     },
     "chest collector": {
         "1": {
-            "Common Chest": 50
+            "resources": {
+                "Common Chest": 50
+            },
+            "requirements": {},
+            "rewards": {
+                "Gold Coin": 10
+            }
         },
         "2": {
-            "Red Chest": 100
+            "resources": {
+                "Red Chest": 100
+            },
+            "requirements": {},
+            "rewards": {
+                "Gold Coin": 20
+            }
         },
         "3": {
-            "Spiked Chest": 150
+            "resources": {
+                "Spiked Chest": 150
+            },
+            "requirements": {},
+            "rewards": {
+                "Gold Coin": 30
+            }
         },
         "4": {
-            "Nefrit Chest": 200
+            "resources": {
+                "Nefrit Chest": 200
+            },
+            "requirements": {},
+            "rewards": {
+                "Gold Coin": 50
+            }
         },
         "5": {
-            "Crystal Chest": 500
+            "resources": {
+                "Crystal Chest": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Gold Coin": 75
+            }
         }
     },
     "my precious gold": {
         "1": {
-            "Gold Coin": 100
+            "resources": {
+                "Gold Coin": 100
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 5
+            }
         },
         "2": {
-            "Gold Coin": 250
+            "resources": {
+                "Gold Coin": 250
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 10
+            }
         },
         "3": {
-            "Gold Coin": 500
+            "resources": {
+                "Gold Coin": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Large Exp Scroll": 15
+            }
         },
         "4": {
-            "Gold Coin": 1000
+            "resources": {
+                "Gold Coin": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Massive Exp Scroll": 1
+            }
         },
         "5": {
-            "Gold Coin": 2500
+            "resources": {
+                "Gold Coin": 2500
+            },
+            "requirements": {},
+            "rewards": {
+                "Massive Exp Scroll": 1
+            }
         },
         "6": {
-            "Gold Coin": 3500
+            "resources": {
+                "Gold Coin": 3500
+            },
+            "requirements": {},
+            "rewards": {
+                "Massive Exp Scroll": 1
+            }
         },
         "7": {
-            "Gold Coin": 5000
+            "resources": {
+                "Gold Coin": 5000
+            },
+            "requirements": {},
+            "rewards": {
+                "Massive Exp Scroll": 1
+            }
         },
         "8": {
-            "Gold Coin": 10000
+            "resources": {
+                "Gold Coin": 10000
+            },
+            "requirements": {},
+            "rewards": {
+                "Massive Exp Scroll": 1
+            }
         }
     },
     "secret keeper": {
         "1": {
-            "Ancient Rod": 1
+            "resources": {
+                "Ancient Rod": 1
+            },
+            "requirements": {
+                "Fishing": 99
+            },
+            "rewards": {
+                "Gold Coin": 25
+            }
         },
         "2": {
-            "Chicken Knife": 1
+            "resources": {
+                "Chicken Knife": 1
+            },
+            "requirements": {
+                "Strength": 90
+            },
+            "rewards": {
+                "Gold Coin": 50
+            }
         },
         "3": {
-            "Cauldron": 1
+            "resources": {
+                "Cauldron": 1
+            },
+            "requirements": {
+                "Alchemy": 130
+            },
+            "rewards": {
+                "Gold Coin": 75
+            }
         },
         "4": {
-            "Rod of Anuket": 1
+            "resources": {
+                "Rod of Anuket": 1
+            },
+            "requirements": {
+                "Crafting": 130
+            },
+            "rewards": {
+                "Gold Coin": 100
+            }
         },
         "5": {
-            "Drakes Dairy": 1
+            "resources": {
+                "Drakes Dairy": 1
+            },
+            "requirements": {
+                "Discovery": 99
+            },
+            "rewards": {
+                "Gold Coin": 125
+            }
         },
         "6": {
-            "Mystic Hat": 1
+            "resources": {
+                "Mystic Hat": 1
+            },
+            "requirements": {
+                "Slayer": 99
+            },
+            "rewards": {
+                "Gold Coin": 150
+            }
         },
         "7": {
-            "Extreme Power Stone": 3
+            "resources": {
+                "Extreme Power Stone": 3
+            },
+            "requirements": {
+                "Defence": 99
+            },
+            "rewards": {
+                "Gold Coin": 175
+            }
         },
         "8": {
-            "Ring of Death": 1
+            "resources": {
+                "Ring of Death": 1
+            },
+            "requirements": {
+                "Cooking": 130
+            },
+            "rewards": {
+                "Gold Coin": 200
+            }
         },
         "9": {
-            "Ring of Speed": 1
+            "resources": {
+                "Ring of Speed": 1
+            },
+            "requirements": {
+                "Thieving": 99
+            },
+            "rewards": {
+                "Gold Coin": 225
+            }
         },
         "10": {
-            "Scythe of Demeter": 1
+            "resources": {
+                "Scythe of Demeter": 1
+            },
+            "requirements": {
+                "Firemaking": 130
+            },
+            "rewards": {
+                "Gold Coin": 250
+            }
         },
         "11": {
-            "Pickaxe of the Gods": 1
+            "resources": {
+                "Pickaxe of the Gods": 1
+            },
+            "requirements": {
+                "Mining": 130
+            },
+            "rewards": {
+                "Gold Coin": 250
+            }
         }
     },
     "sleepless cogs": {
         "1": {
-            "Cogs": 20
+            "resources": {
+                "Cogs": 20
+            },
+            "requirements": {},
+            "rewards": {
+                "Cog": 1
+            }
         },
         "2": {
-            "Cogs": 50
+            "resources": {
+                "Cogs": 50
+            },
+            "requirements": {},
+            "rewards": {
+                "Wood": 1
+            }
         },
         "3": {
-            "Cogs": 100
+            "resources": {
+                "Cogs": 100
+            },
+            "requirements": {},
+            "rewards": {
+                "Cog": 1
+            }
         },
         "4": {
-            "Cogs": 500
+            "resources": {
+                "Cogs": 500
+            },
+            "requirements": {},
+            "rewards": {
+                "Wood": 1
+            }
         },
         "5": {
-            "Cogs": 1000
+            "resources": {
+                "Cogs": 1000
+            },
+            "requirements": {},
+            "rewards": {
+                "Cog": 1
+            }
         },
         "6": {
-            "Cogs": 2500
+            "resources": {
+                "Cogs": 2500
+            },
+            "requirements": {},
+            "rewards": {
+                "Wood": 1
+            }
         },
         "7": {
-            "Cogs": 5000
+            "resources": {
+                "Cogs": 5000
+            },
+            "requirements": {},
+            "rewards": {
+                "Cog": 1
+            }
         },
         "8": {
-            "Cogs": 10000
+            "resources": {
+                "Cogs": 10000
+            },
+            "requirements": {},
+            "rewards": {
+                "Wood": 1
+            }
         },
         "9": {
-            "Cogs": 25000
+            "resources": {
+                "Cogs": 25000
+            },
+            "requirements": {},
+            "rewards": {
+                "Cog": 1
+            }
         },
         "10": {
-            "Cogs": 50000
+            "resources": {
+                "Cogs": 50000
+            },
+            "requirements": {},
+            "rewards": {
+                "Wood": 1
+            }
         }
     },
     "beginners luck": {
         "1": {
-            "Raw Shrimp": 30,
-            "Shrimp": 30
+            "resources": {
+                "Raw Shrimp": 30,
+                "Shrimp": 30
+            },
+            "requirements": {
+                "Fishing": 10,
+                "Cooking": 10
+            },
+            "rewards": {
+                "Casket of Treasure": 5
+            }
         },
         "2": {
-            "Leather": 10,
-            "Birds Nest": 10
+            "resources": {
+                "Leather": 10,
+                "Birds Nest": 10
+            },
+            "requirements": {
+                "Crafting": 10,
+                "Discovery": 10
+            },
+            "rewards": {
+                "Casket of Treasure": 10
+            }
         },
         "3": {
-            "Attack Potion": 10,
-            "Tomato": 10
+            "resources": {
+                "Attack Potion": 10,
+                "Tomato": 10
+            },
+            "requirements": {
+                "Alchemy": 10,
+                "Farming": 10
+            },
+            "rewards": {
+                "Casket of Treasure": 15
+            }
         },
         "4": {
-            "Feathers": 50,
-            "Common Chest": 1
+            "resources": {
+                "Feathers": 50,
+                "Common Chest": 1
+            },
+            "requirements": {
+                "Attack": 10,
+                "Strength": 10
+            },
+            "rewards": {
+                "Casket of Treasure": 20
+            }
         },
         "5": {
-            "Bones": 50
+            "resources": {
+                "Bones": 50
+            },
+            "requirements": {
+                "Defence": 10,
+                "Slayer": 10
+            },
+            "rewards": {
+                "Casket of Treasure": 25
+            }
         },
         "6": {
-            "Raw Minnows": 100,
-            "Minnows": 100
+            "resources": {
+                "Raw Minnows": 100,
+                "Minnows": 100
+            },
+            "requirements": {
+                "Fishing": 30,
+                "Cooking": 30
+            },
+            "rewards": {
+                "Casket of Treasure": 30
+            }
         },
         "7": {
-            "Iron Boots": 50,
-            "Mushroom": 50
+            "resources": {
+                "Iron Boots": 50,
+                "Mushroom": 50
+            },
+            "requirements": {
+                "Crafting": 30,
+                "Discovery": 30
+            },
+            "rewards": {
+                "Casket of Treasure": 35
+            }
         },
         "8": {
-            "Fishing Potion": 50,
-            "Strawberry": 50
+            "resources": {
+                "Fishing Potion": 50,
+                "Strawberry": 50
+            },
+            "requirements": {
+                "Alchemy": 30, 
+                "Farming": 30
+            },
+            "rewards": {
+                "Casket of Treasure": 40
+            }
         },
         "9": {
-            "Oak": 50,
-            "Red Chest": 10
+            "resources": {
+                "Oak": 50,
+                "Red Chest": 10
+            },
+            "requirements": {
+                "Attack": 30,
+                "Strength": 30
+            },
+            "rewards": {
+                "Casket of Treasure": 45
+            }
         },
         "10": {
-            "Bones": 150,
-            "Milk": 50
+            "resources": {
+                "Bones": 150,
+                "Milk": 50
+            },
+            "requirements": {
+                "Defence": 30,
+                "Slayer": 30
+            },
+            "rewards": {
+                "Casket of Treasure": 50
+            }
         }
     }
 }
