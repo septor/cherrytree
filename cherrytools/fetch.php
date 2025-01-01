@@ -73,11 +73,29 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
         }
         foreach ($expandedQuestLevels as $level) {
             if (isset($questsData[$questLine][$level])) {
-                foreach ($questsData[$questLine][$level] as $key => $value) {
-                    if (!isset($totals[$key])) {
-                        $totals[$key] = 0;
+                $questLevelData = $questsData[$questLine][$level];
+                if (isset($questLevelData['resources'])) {
+                    foreach ($questLevelData['resources'] as $key => $value) {
+                        if (!isset($totals[$key])) {
+                            $totals[$key] = 0;
+                        }
+                        $totals[$key] += $value;
                     }
-                    $totals[$key] += $value;
+                }
+                if (isset($questLevelData['requirements'])) {
+                    foreach ($questLevelData['requirements'] as $skill => $level) {
+                        if (!isset($highestLevels[$skill]) || $level > $highestLevels[$skill]) {
+                            $highestLevels[$skill] = $level;
+                        }
+                    }
+                }
+                if (isset($questLevelData['rewards'])) {
+                    foreach ($questLevelData['rewards'] as $reward => $amount) {
+                        if (!isset($rewardTotals[$reward])) {
+                            $rewardTotals[$reward] = 0;
+                        }
+                        $rewardTotals[$reward] += $amount;
+                    }
                 }
             }
         }
@@ -99,9 +117,9 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
         }
         echo "</td>
         <td style='vertical-align: top;'>";
-        if(!empty($highestLevels)) {
+        if (!empty($highestLevels)) {
             foreach ($highestLevels as $skill => $level) {
-                echo "Level ".$level." ".$skill."<br>";
+                echo "Level " . $level . " " . $skill . "<br>";
             }
         } else {
             echo "No requirements needed.";
