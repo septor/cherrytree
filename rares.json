@@ -54,7 +54,7 @@
     "Mystic Hat": {
         "benefit": "A very powerful hat",
         "obtained": {
-            "Dropped by Pig": "1:15,000"
+            "Dropped by Pig": "1:10,000"
         }
     },
     "Mystic Robe": {
@@ -104,7 +104,7 @@
     "Super Power Stone": {
         "benefit": "Increases damage by 25%",
         "obtained": {
-            "Dropped by Ghost": "1:10,000",
+            "Dropped by Ghost": "1:5,000",
             "Created in workshop using Power Stone": "1:15",
             "Queens Chest": "1:517",
             "Kings Chest": "1:98"
@@ -139,25 +139,25 @@
     "Ring of Life": {
         "benefit": "Heals you For 20% Of any damage you deal",
         "obtained": {
-            "Dropped by Elite Pig": "1:25,000"
+            "Dropped by Elite Pig": "1:20,000"
         }
     },
     "Necklace of Attack": {
         "benefit": "Gives a 250 Attack Bonus",
         "obtained": {
-            "During combat while training Attack Skill": "1:50,000"
+            "During combat while training Attack Skill": "1:20,000"
         }
     },
     "Necklace of Defence": {
         "benefit": "Gives a 250 Defence Bonus",
         "obtained": {
-            "During combat while training Defence Skill": "1:50,000"
+            "During combat while training Defence Skill": "1:20,000"
         }
     },
     "Necklace of Strength": {
         "benefit": "Gives a 250 Strength Bonus",
         "obtained": {
-            "During combat while training Strength Skill": "1:50,000"
+            "During combat while training Strength Skill": "1:20,000"
         }
     },
     "Necklace of Health": {
@@ -181,7 +181,7 @@
     "Restoration Fragment 1": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Dropped by Water Dragon": "1:25,000"
+            "Dropped by Water Dragon": "1:30,000"
         }
     },
     "Restoration Fragment 2": {
@@ -217,7 +217,7 @@
     "Book of Death": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Archer": "1:40,000"
+            "Dropped by Elven Archer": "1:30,000"
         }
     },
     "Book of Necromancy": {
@@ -229,7 +229,7 @@
     "Ancient Elven Book": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Queen": "1:125,000"
+            "Dropped by Elven Queen": "1:100,000"
         }
     },
     "Rabbits Foot": {
@@ -283,7 +283,7 @@
     "Blessed Sacrifice": {
         "benefit": "Improves damage by 50% of Max Health",
         "obtained": {
-            "Dropped by Living Armour King": "1:60,000"
+            "Dropped by Living Armour King": "1:75,000"
         }
     }
 }
