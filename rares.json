@@ -1,289 +1,372 @@
 {
-    "Ancient Rod": {
-        "benefit": "Allows access to the Mystery Island Fishing spot",
-        "obtained": {
-            "Dropped by Goblin Chief": "1:20,000",
-            "Fishing in City River": "1:13,000"
-        }
-    },
-    "Chicken Knife": {
-        "benefit": "Just a really cool weapon",
-        "obtained": {"Dropped by Chicken": "1:125,000",
-            "Dropped by Elite Chicken": "1:125,000",
-            "Farm Chests": ""
-        }
-    },
-    "Mystery Egg": {
-        "benefit": "Allows access to the Mystery Island Discovery location",
-        "obtained": {
-            "Dropped by Pheonix": "1:15,000",
-            "Discovery in Island Oasis": "1:3,000"
-        }
-    },
-    "Cauldron": {
-        "benefit": "Allows the automatic renewal of Potions",
-        "obtained": {
-            "Dropped by Jin": "1:10,750",
-            "Brewing Super Defence Potions": "1:3,500"
-        }
-    },
-    "Rod of Anuket": {
-        "benefit": "Allows the automatic renewal of Fishing Nets",
-        "obtained": {
-            "Fishing in Cave": "1:2,500"
-        }
-    },
-    "Drakes Compass": {
-        "benefit": "Allows instant discovery of the full grid",
-        "obtained": {
-            "Crafting Satchel while using NORMAL luck potions and Leather Gloves equipped.": "1:32,000"
-        }
-    },
-    "Drakes Diary": {
-        "benefit": "Does nothing, means you failed to get the Compass",
-        "obtained": {
-            "Crafting Satchel while WITHOUT using NORMAL luck potions and:or Leather Gloves equipped.": "1:32,000"
-        }
-    },
-    "Scythe of Demeter": {
-        "benefit": "Reduces Farming timers by 80%",
-        "obtained": {
-            "Harvesting any crop in the game. The higher the level the better the odds.": "1:172,500 (tomatoes)"
-        }
-    },
-    "Mystic Hat": {
-        "benefit": "A very powerful hat",
-        "obtained": {
-            "Dropped by Pig": "1:10,000"
-        }
-    },
-    "Mystic Robe": {
-        "benefit": "A very powerful robe top",
-        "obtained": {
-            "Found while crafting Dragon Rider Top": "1:62,500"
-        }
-    },
-    "Mystic Bottoms": {
-        "benefit": "A very powerful pair of robe bottoms",
-        "obtained": {
-            "Found while cooking Fish Wedge": "1:10,000"
-        }
-    },
-    "Mystic Gloves": {
-        "benefit": "A very powerful pair of gloves",
-        "obtained": {
-            "Found while brewing Thieving Potion": "1:125,000"
-        }
-    },
-    "Mystic Boots": {
-        "benefit": "A very powerful pair of boots",
-        "obtained": {
-            "Fishing in Livingstone Island": "1:7,500"
-        }
-    },
-    "Mystic Dagger": {
-        "benefit": "A very powerful dagger",
-        "obtained": {
-            "Completing slayer tasks set by Lumen": "1:2,500",
-            "Kings Chest": ""
-        }
-    },
-    "Locker Key": {
-        "benefit": "Allows access to the equipment stash",
-        "obtained": {
-            "Not actually in the game yet": "Unknown"
-        }
-    },
-    "Power Stone": {
-        "benefit": "Increases damage by 10%",
-        "obtained": {
-            "Found by Crafting Power Potion": "1:500",
-            "Kings Chest": ""
-        }
-    },
-    "Super Power Stone": {
-        "benefit": "Increases damage by 25%",
-        "obtained": {
-            "Dropped by Ghost": "1:5,000",
-            "Created in workshop using Power Stone": "1:15",
-            "Queens Chest": "1:517",
-            "Kings Chest": "1:98"
-        }
-    },
-    "Extreme Power Stone": {
-        "benefit": "Increases damage by 50%",
-        "obtained": {
-            "Created in workshop using Super Power Stone": "",
-            "Kings Chest": "1:3,951",
-            "Completing Vain Slayer Tasks (not kills)": "1:1,250"
-        }
-    },
-    "Ring Fragments": {
-        "benefit": "Can be used in the workshop to Craft Powerful Rings",
-        "obtained": {
-            "1-3 can be found at a time while crafting any item in the workshop": "1:250,000"
-        }
-    },
-    "Ring of Speed": {
-        "benefit": "Doubles your Attack Speed",
-        "obtained": {
-            "Dropped by Orc King": "1:15,000"
-        }
-    },
-    "Ring of Death": {
-        "benefit": "Provides a 10% chance to instantly kill the enemy",
-        "obtained": {
-            "Cooking Dragon Platter": "1:10,000"
-        }
-    },
-    "Ring of Life": {
-        "benefit": "Heals you For 20% Of any damage you deal",
-        "obtained": {
-            "Dropped by Elite Pig": "1:20,000"
-        }
-    },
-    "Necklace of Attack": {
-        "benefit": "Gives a 250 Attack Bonus",
-        "obtained": {
-            "During combat while training Attack Skill": "1:20,000"
-        }
-    },
-    "Necklace of Defence": {
-        "benefit": "Gives a 250 Defence Bonus",
-        "obtained": {
-            "During combat while training Defence Skill": "1:20,000"
-        }
-    },
-    "Necklace of Strength": {
-        "benefit": "Gives a 250 Strength Bonus",
-        "obtained": {
-            "During combat while training Strength Skill": "1:20,000"
-        }
-    },
-    "Necklace of Health": {
-        "benefit": "Gives a 250 Health Bonus",
-        "obtained": {
-            "Fishing in Beach Pier": "1:30,000"
-        }
-    },
-    "Mystic Staff": {
-        "benefit": "This Staff gives A 25% instant kill chance (Stacks with Potions and the Ring of Death)<br>Gives a 25% chance to reduce all incoming damage to 0<br>Gives 50% more damage in the Immortal Realm in turn for no instant kill chance",
-        "obtained": {
-            "Dropped by": "Sheep while Chopping Ginkgo Tree and Ultimaxed (All 99s And 130s):1:500,000"
-        }
-    },
-    "Magic Watering Can": {
-        "benefit": "Allows you to automatically harvest and replant Farming Seeds",
-        "obtained": {
-            "Dropped by Elite Chicken while wearing full Leather Armour": "1:125,000"
-        }
-    },
-    "Restoration Fragment 1": {
-        "benefit": "Used to Craft the Necklace of Restoration",
-        "obtained": {
-            "Dropped by Water Dragon": "1:30,000"
-        }
-    },
-    "Restoration Fragment 2": {
-        "benefit": "Used to Craft the Necklace of Restoration",
-        "obtained": {
-            "Farming Cherries": "1:25,000"
-        }
-    },
-    "Restoration Fragment 3": {
-        "benefit": "Used to Craft the Necklace of Restoration",
-        "obtained": {
-            "Discovery in Mount Desmond": "1:25,000"
-        }
-    },
-    "Restoration Fragment 4": {
-        "benefit": "Used to Craft the Necklace of Restoration",
-        "obtained": {
-            "Chopping Elder Tree": "1:25,000"
-        }
-    },
-    "Restoration Fragment 5": {
-        "benefit": "Used to Craft the Necklace of Restoration",
-        "obtained": {
-            "Burning Chestnut Log": "1:25,000"
-        }
-    },
-    "Necklace of Restoration": {
-        "benefit": "Heals you For 40% Of all damage you Deal",
-        "obtained": {
-            "Crafted using all Restoration Fragments": "1:1"
-        }
-    },
-    "Book of Death": {
-        "benefit": "A powerful item for Shield Slot",
-        "obtained": {
-            "Dropped by Elven Archer": "1:30,000"
-        }
-    },
-    "Book of Necromancy": {
-        "benefit": "A powerful item for Shield Slot",
-        "obtained": {
-            "Dropped by Elven King": "1:150,000"
-        }
-    },
     "Ancient Elven Book": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Queen": "1:100,000"
+            "Dropped by Elven Queen": "100000/60000",
+            "Safecracking Empyreon": "494",
+            "Dropped by Noctyra": "6924",
+            "Casket of Treasure": "5209"
         }
     },
-    "Rabbits Foot": {
-        "benefit": "Doubles the chances of getting Eagles Nests",
+    "Ancient Rod": {
+        "benefit": "Allows access to the Mystery Island Fishing spot",
         "obtained": {
-            "Eagles Nest": "1:5,666"
-        }
-    },
-    "Hatchet of the Gods": {
-        "benefit": "25% increase in Chopping Speed<br>2x all Logs<br>Doubles seed chance while Chopping<br>Doubles the Eagles Nest chance(Stacks with Rabbits Foot)<br>Zero fail chance",
-        "obtained": {
-            "Eagles Nest": "1:11,133"
-        }
-    },
-    "Pickaxe of the Gods": {
-        "benefit": "3x All ores<br>Zero fail chance",
-        "obtained": {
-            "Mining Emerald while wearing Mining Cape": "1:125,000"
-        }
-    },
-    "Thieving Gloves": {
-        "benefit": "Reduces Thieving time(From 2.5s to 1.5s)<br>5x All Coins<br>Zero fail chance",
-        "obtained": {
-            "Found while Farming Elder Seed": "1:75,000"
-        }
-    },
-    "Chefs Hat": {
-        "benefit": "2x All Food<br>25% ingredients saver (Doesn't Work On Cook X1)",
-        "obtained": {
-            "Pickpocketing Cook While wearing Cooking Cape": "1:125,000"
-        }
-    },
-    "Flame Gloves": {
-        "benefit": "2x Firemaking Exp while Woodcutting<br>Logs Are Automatically Burned While Woodcutting",
-        "obtained": {
-            "Discovery in Wasteland Volcano": "1:125,000"
-        }
-    },
-    "Illuminant Gem": {
-        "benefit": "3x All Ores<br>Small chance to find Gold Coin while Mining",
-        "obtained": {
-            "Found while Mining": "Higher the Tier of Ore, Higher Rate"
-        }
-    },
-    "Ring of Souls": {
-        "benefit": "2x Soul Gems<br>Restarts Slayer Task automatically<br>Has the effect of the Ring of Speed",
-        "obtained": {
-            "Dropped by Elven Queen while doing Slayer Task (on kill)": "1:250,000"
+            "Dropped by Goblin Chief": "20000/12000",
+            "Fishing in City River": "13000/7800"
         }
     },
     "Blessed Sacrifice": {
         "benefit": "Improves damage by 50% of Max Health",
         "obtained": {
-            "Dropped by Living Armour King": "1:75,000"
+            "Dropped by Living Armour King": "75000/45000"
+        }
+    },
+    "Book of Death": {
+        "benefit": "A powerful item for Shield Slot",
+        "obtained": {
+            "Dropped by Elven Archer": "30000/18000",
+            "Dropped by Noctyra": "4154"
+        }
+    },
+    "Book of Necromancy": {
+        "benefit": "A powerful item for Shield Slot",
+        "obtained": {
+            "Dropped by Elven King": "150000/90000"
+        }
+    },
+    "Cauldron": {
+        "benefit": "Allows the automatic renewal of Potions",
+        "obtained": {
+            "Dropped by Jin": "10750/6450",
+            "Brewing Super Defence Potions": "3500/2100"
+        }
+    },
+    "Chefs Hat": {
+        "benefit": "2x All Food<br>25% ingredients saver (Doesn't Work On Cook X1)",
+        "obtained": {
+            "Pickpocketing Cook While wearing Cooking Cape": "125000/75000",
+            "Casket of Treasure": "4434"
+        }
+    },
+    "Chicken Knife": {
+        "benefit": "Just a really cool weapon",
+        "obtained": {
+            "Dropped by Chicken": "125000/75000",
+            "Dropped by Elite Chicken": "125000/75000",
+            "Farm Chest": "771",
+            "Crystal Chest": "993",
+            "Nefrit Chest": "1370"
+        }
+    },
+    "Death Princess Rune": {
+        "benefit": "80% Chance to deal double damage 20% chance to deal 70% less damage",
+        "obtained": {
+            "Casket of Treasure": "7209",
+            "Dropped by Noctyra": "10386"
+        }
+    },
+    "Drakes Compass": {
+        "benefit": "Allows instant discovery of the full grid",
+        "obtained": {
+            "Crafting Satchel while using NORMAL luck potions and Leather Gloves equipped.": "32000/19200"
+        }
+    },
+    "Drakes Diary": {
+        "benefit": "Does nothing, means you failed to get the Compass",
+        "obtained": {
+            "Crafting Satchel while WITHOUT using NORMAL luck potions and:or Leather Gloves equipped.": "32000/19200"
+        }
+    },
+    "Extreme Power Stone": {
+        "benefit": "Increases damage by 50%",
+        "obtained": {
+            "Crafted using 15 Super Power Stones": "1",
+            "Kings Chest": "3951",
+            "Completing Vain Slayer Tasks (not kills)": "1250/750",
+            "Safecracking Polisoros": "18",
+            "Dropped by Feroxi": "3156"
+        }
+    },
+    "Flame Gloves": {
+        "benefit": "2x Firemaking Exp while Woodcutting<br>Logs Are Automatically Burned While Woodcutting",
+        "obtained": {
+            "Discovery in Wasteland Volcano": "125000/75000"
+        }
+    },
+    "Hatchet of the Gods": {
+        "benefit": "25% increase in Chopping Speed<br>2x all Logs<br>Doubles seed chance while Chopping<br>Doubles the Eagles Nest chance(Stacks with Rabbits Foot)<br>Zero fail chance",
+        "obtained": {
+            "Eagles Nest": "11133"
+        }
+    },
+    "Illuminant Gem": {
+        "benefit": "3x All Ores<br>Small chance to find Gold Coin while Mining",
+        "obtained": {
+            "Found while Mining. Higher the Tier of Ore, Higher Rate of drop. Rates based on Mithril Ore.": "300000"
+        }
+    },
+    "Magic Watering Can": {
+        "benefit": "Allows you to automatically harvest and replant Farming Seeds",
+        "obtained": {
+            "Dropped by Elite Chicken while wearing full Leather Armour": "125000/75000",
+            "Dropped by Aurial": "2539",
+            "Safecracking Polisoros": "217"
+        }
+    },
+    "Mystery Egg": {
+        "benefit": "Allows access to the Mystery Island Discovery location",
+        "obtained": {
+            "Dropped by Pheonix": "15000/9000",
+            "Discovery in Island Oasis": "3000/1800"
+        }
+    },
+    "Mystic Boots": {
+        "benefit": "A very powerful pair of boots",
+        "obtained": {
+            "Fishing in Livingstone Island": "7500/4500"
+        }
+    },
+    "Mystic Bottoms": {
+        "benefit": "A very powerful pair of robe bottoms",
+        "obtained": {
+            "Found while cooking Fish Wedge": "10000/6000",
+            "Safecracking Empyreon": "329",
+            "Safecracking Polisoros": "433"
+        }
+    },
+    "Mystic Dagger": {
+        "benefit": "A very powerful dagger",
+        "obtained": {
+            "Completing Lumen Slayer Tasks (not kills)": "2500/1500",
+            "Kings Chest": "795"
+        }
+    },
+    "Mystic Gloves": {
+        "benefit": "A very powerful pair of gloves",
+        "obtained": {
+            "Found while brewing Thieving Potion": "7500/4500"
+        }
+    },
+    "Mystic Hat": {
+        "benefit": "A very powerful hat",
+        "obtained": {
+            "Dropped by Pig": "10000/6000"
+        }
+    },
+    "Mystic Robe": {
+        "benefit": "A very powerful robe top",
+        "obtained": {
+            "Found while crafting Dragon Rider Top": "62500/37500",
+            "Safecracking Empyreon": "329",
+            "Safecracking Polisoros": "433"
+        }
+    },
+    "Mystic Staff": {
+        "benefit": "This Staff gives A 25% instant kill chance (Stacks with Potions and the Ring of Death)<br>Gives a 25% chance to reduce all incoming damage to 0<br>Gives 50% more damage in the Immortal Realm in turn for no instant kill chance",
+        "obtained": {
+            "Dropped by Sheep while Chopping Ginkgo Tree and Ultimaxed (All 99s And 130s)": "500000",
+            "Dropped by Noctyra": "20772",
+            "Casket of Treasure": "5509"
+        }
+    },
+    "Necklace of Attack": {
+        "benefit": "Gives a 250 Attack Bonus",
+        "obtained": {
+            "During combat while training Attack Skill": "20000/12000"
+        }
+    },
+    "Necklace of Defence": {
+        "benefit": "Gives a 250 Defence Bonus",
+        "obtained": {
+            "During combat while training Defence Skill": "20000/12000"
+        }
+    },
+    "Necklace of Health": {
+        "benefit": "Gives a 250 Health Bonus",
+        "obtained": {
+            "Fishing in Beach Pier": "30000/18000",
+            "Dropped by Amaran": "1798"
+        }
+    },
+    "Necklace of Restoration": {
+        "benefit": "Heals you For 40% Of all damage you Deal",
+        "obtained": {
+            "Crafted using all Restoration Fragments": "1",
+            "Casket of Treasure": "4684"
+        }
+    },
+    "Necklace of Strength": {
+        "benefit": "Gives a 250 Strength Bonus",
+        "obtained": {
+            "During combat while training Strength Skill": "20000/12000",
+            "Dropped by Feroxi": "3156"
+        }
+    },
+    "Pickaxe of the Gods": {
+        "benefit": "3x All ores<br>Zero fail chance",
+        "obtained": {
+            "Mining Emerald while wearing Mining Cape": "125000/75000",
+            "Casket of Treasure": "4184"
+        }
+    },
+    "Power Stone": {
+        "benefit": "Increases damage by 10%",
+        "obtained": {
+            "Found by Crafting Power Potion": "500/300",
+            "Queens Chest": "25",
+            "Kings Chest": "24"
+        }
+    },
+    "Pumpkin Pie Recipe Scroll": {
+        "benefit": "Grants you the Pumpkin Pie recipe.",
+        "obtained": {
+            "Safecracking Empyreon": "329"
+        }
+    },
+    "Rabbits Foot": {
+        "benefit": "Doubles the chances of getting Eagles Nests",
+        "obtained": {
+            "Eagles Nest": "5666",
+            "Dropped by Copina": "6051"
+        }
+    },
+    "Restoration Fragment 1": {
+        "benefit": "Used to Craft the Necklace of Restoration",
+        "obtained": {
+            "Dropped by Water Dragon": "25000/15000"
+        }
+    },
+    "Restoration Fragment 2": {
+        "benefit": "Used to Craft the Necklace of Restoration",
+        "obtained": {
+            "Farming Cherries": "25000/15000",
+            "Dropped by Aurial": "10156"
+        }
+    },
+    "Restoration Fragment 3": {
+        "benefit": "Used to Craft the Necklace of Restoration",
+        "obtained": {
+            "Discovery in Mount Desmond": "25000/15000"
+        }
+    },
+    "Restoration Fragment 4": {
+        "benefit": "Used to Craft the Necklace of Restoration",
+        "obtained": {
+            "Chopping Elder Tree": "25000/15000"
+        }
+    },
+    "Restoration Fragment 5": {
+        "benefit": "Used to Craft the Necklace of Restoration",
+        "obtained": {
+            "Burning Chestnut Log": "25000/15000"
+        }
+    },
+    "Ring Fragments": {
+        "benefit": "Can be used in the workshop to Craft Powerful Rings",
+        "obtained": {
+            "1-3 can be found at a time while crafting any item in the workshop": "250000"
+        }
+    },
+    "Ring of Death": {
+        "benefit": "Provides a 10% chance to instantly kill the enemy",
+        "obtained": {
+            "Cooking Dragon Platter": "10000/6000",
+            "Safecracking Empyreon": "110",
+            "Dropped by Noctyra": "4154",
+            "Casket of Treasure": "3384"
+        }
+    },
+    "Ring of Life": {
+        "benefit": "Heals you For 20% Of any damage you deal",
+        "obtained": {
+            "Dropped by Elite Pig": "20000/12000",
+            "Safecracking Empyreon": "124",
+            "Dropped by Amaran": "5995",
+            "Casket of Treasure": "3184"
+        }
+    },
+    "Ring of Souls": {
+        "benefit": "2x Soul Gems<br>Restarts Slayer Task automatically<br>Has the effect of the Ring of Speed",
+        "obtained": {
+            "Dropped by Elven Queen while doing Slayer Task (on kill)": "250000/150000"
+        }
+    },
+    "Ring of Speed": {
+        "benefit": "Doubles your Attack Speed",
+        "obtained": {
+            "Dropped by Orc King": "15000/9000",
+            "Safecracking Empyreon": "141",
+            "Dropped by Cognium": "6006",
+            "Casket of Treasure": "2984"
+        }
+    },
+    "Rod of Anuket": {
+        "benefit": "Allows the automatic renewal of Fishing Nets",
+        "obtained": {
+            "Fishing in Cave": "2500/1500"
+        }
+    },
+    "Scythe of Demeter": {
+        "benefit": "Reduces Farming timers by 80%",
+        "obtained": {
+            "Harvesting any crop in the game. The higher the level the better the odds. Rates based on tomatoes.": "172500",
+            "Safecracking Auranium": "454",
+            "Kings Chest": "19756",
+            "Farm Chest": "9605",
+            "Eagles Nest": "29270",
+            "Dropped by Aurial": "10156"
+        }
+    },
+    "Soul Reaper Helm": {
+        "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
+        "obtained": {
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+        }
+    },
+    "Soul Reaper Top": {
+        "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
+        "obtained": {
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+        }
+    },
+    "Soul Reaper Greaves": {
+        "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
+        "obtained": {
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+        }
+    },
+    "Soul Reaper Gloves": {
+        "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
+        "obtained": {
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+        }
+    },
+    "Soul Reaper Boots": {
+        "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
+        "obtained": {
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+        }
+    },
+    "Soul Reaper Sword": {
+        "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
+        "obtained": {
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear and sword.": "100000"
+        }
+    },
+    "Super Power Stone": {
+        "benefit": "Increases damage by 25%",
+        "obtained": {
+            "Crafted using 15 Power Stones": "1",
+            "Dropped by Ghost": "10000/6000",
+            "Queens Chest": "517",
+            "Kings Chest": "98"
+        }
+    },
+    "Thieving Gloves": {
+        "benefit": "Reduces Thieving time(From 2.5s to 1.5s)<br>5x All Coins<br>Zero fail chance",
+        "obtained": {
+            "Found while Farming Elder Seed": "75000/45000",
+            "Safecracking Auranium": "227"
         }
     }
 }
