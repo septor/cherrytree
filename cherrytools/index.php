@@ -42,7 +42,7 @@
 
         <div id="cherryRares" class="tool<?= $tool === 'rares' ? ' active' : ''; ?>">
             <h2>CherryRares</h2>
-            <p>Type in a rare item below, and you'll be presented with where to get it and it's drop rate.</p>
+            <p>Type in a rare item below, and you'll be presented with how to get it and it's drop rate. The list is sorted by best to worst drop rate.</p>
             <input type="text" id="rareItem" placeholder="Start typing your rare item...">
         </div>
 

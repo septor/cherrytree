@@ -172,12 +172,50 @@ $(document).ready(function() {
 
                 const benefitHTML = `<h3>${itemName}</h3><p>${itemData.benefit}</p>`;
 
-                let obtainedHTML = '<ul>';
+                let obtainedArray = [];
                 for (const [location, rate] of Object.entries(itemData.obtained)) {
-                    obtainedHTML += `<li><strong>${location}:</strong> ${rate || 'N/A'}</li>`;
+                    if (rate.includes('/')) {
+                        const [baseRate, wishingWellRate] = rate.split('/').map(num => parseInt(num));
+                        const baseRatePercentage = 1 / baseRate * 100;
+                        const wishingWellPercentage = 1 / wishingWellRate * 100;
+                        obtainedArray.push({
+                            location,
+                            baseRate,
+                            wishingWellRate,
+                            baseRatePercentage,
+                            wishingWellPercentage
+                        });
+                    } else {
+                        const baseRate = parseInt(rate);
+                        const baseRatePercentage = 1 / baseRate * 100;
+                        obtainedArray.push({
+                            location,
+                            baseRate,
+                            wishingWellRate: null,
+                            baseRatePercentage,
+                            wishingWellPercentage: null
+                        });
+                    }
+                }
+                obtainedArray.sort((a, b) => b.baseRatePercentage - a.baseRatePercentage);
+                let obtainedHTML = '<ul>';
+                for (const entry of obtainedArray) {
+                    obtainedHTML += `
+                        <li>
+                            <strong>${entry.location}:</strong>
+                            <ul>
+                                <li>Base Rate: 1/${entry.baseRate.toLocaleString()} (${entry.baseRatePercentage.toFixed(6)}%)</li>
+                                ${
+                                    entry.wishingWellRate
+                                        ? `<li>Max WW: 1/${entry.wishingWellRate.toLocaleString()} (${entry.wishingWellPercentage.toFixed(6)}%)</li>`
+                                        : ''
+                                }
+                            </ul>
+                        </li>`;
                 }
                 obtainedHTML += '</ul>';
-                itemDiv.innerHTML = benefitHTML + '<p><strong>Where to Get:</strong></p>' + obtainedHTML;
+                itemDiv.innerHTML = benefitHTML + '<p><strong>How to Get:</strong></p>' + obtainedHTML;
+    
                 resultsDiv.appendChild(itemDiv);
             }
         }
@@ -199,5 +237,4 @@ $(document).ready(function() {
             displayResults(filteredData);
         });
     });
-    
 });
