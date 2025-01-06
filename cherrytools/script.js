@@ -70,23 +70,39 @@ applySavedTheme();
 
 const cherryQuickButton = document.getElementById('cherryQuickButton');
 const cherryHuntsButton = document.getElementById('cherryHuntsButton');
+const cherryRaresButton = document.getElementById('cherryRaresButton');
 const cherryQuick = document.getElementById('cherryQuick');
 const cherryHunts = document.getElementById('cherryHunts');
+const cherryRares = document.getElementById('cherryRares');
 const resultsDiv = document.getElementById('results');
 
 
 cherryQuickButton.addEventListener('click', () => {
     cherryQuickButton.classList.add('active');
     cherryHuntsButton.classList.remove('active');
+    cherryRaresButton.classList.remove('active');
     cherryQuick.classList.add('active');
     cherryHunts.classList.remove('active');
+    cherryRares.classList.remove('active');
     clearResults();
 });
 
 cherryHuntsButton.addEventListener('click', () => {
     cherryHuntsButton.classList.add('active');
     cherryQuickButton.classList.remove('active');
+    cherryRaresButton.classList.remove('active');
     cherryHunts.classList.add('active');
+    cherryQuick.classList.remove('active');
+    cherryRares.classList.remove('active');
+    clearResults();
+});
+
+cherryRaresButton.addEventListener('click', () => {
+    cherryRaresButton.classList.add('active');
+    cherryHuntsButton.classList.remove('active');
+    cherryQuickButton.classList.remove('active');
+    cherryRares.classList.add('active');
+    cherryHunts.classList.remove('active');
     cherryQuick.classList.remove('active');
     clearResults();
 });
@@ -143,4 +159,45 @@ $(document).ready(function() {
             displayResults(filteredData);
         });
     });
+
+    $.getJSON('https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/rares.json', function(rareData) {
+        const rareItem = document.getElementById('rareItem');
+    
+        function displayResults(filteredData) {
+            resultsDiv.innerHTML = '';
+    
+            for (const [itemName, itemData] of Object.entries(filteredData)) {
+                const itemDiv = document.createElement('div');
+                itemDiv.classList.add('result-item');
+
+                const benefitHTML = `<h3>${itemName}</h3><p>${itemData.benefit}</p>`;
+
+                let obtainedHTML = '<ul>';
+                for (const [location, rate] of Object.entries(itemData.obtained)) {
+                    obtainedHTML += `<li><strong>${location}:</strong> ${rate || 'N/A'}</li>`;
+                }
+                obtainedHTML += '</ul>';
+                itemDiv.innerHTML = benefitHTML + '<p><strong>Where to Get:</strong></p>' + obtainedHTML;
+                resultsDiv.appendChild(itemDiv);
+            }
+        }
+    
+        rareItem.addEventListener('input', () => {
+            const query = rareItem.value.toLowerCase();
+    
+            if (!query.trim()) {
+                resultsDiv.innerHTML = '';
+                return;
+            }
+
+            const filteredData = Object.fromEntries(
+                Object.entries(rareData).filter(([itemName]) =>
+                    itemName.toLowerCase().includes(query)
+                )
+            );
+    
+            displayResults(filteredData);
+        });
+    });
+    
 });

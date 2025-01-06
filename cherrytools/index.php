@@ -16,6 +16,7 @@
     <nav>
         <button id="cherryQuickButton"<?= $tool === 'quick' ? ' class="active"' : ''; ?>>CherryQuick</button>
         <button id="cherryHuntsButton"<?= $tool === 'hunts' ? ' class="active"' : ''; ?>>CherryHunts</button>
+        <button id="cherryRaresButton"<?= $tool === 'rares' ? ' class="active"' : ''; ?>>CherryRares</button>
     </nav>
     <main>
 
@@ -37,6 +38,12 @@
             <h2>CherryHunts</h2>
             <p>If you're working on your treasure scrolls, you'll realize all methods for hunting down the answers suck. Try this instead!</p>
             <input type="text" id="treasureHint" placeholder="Start typing your treasure scroll hint...">
+        </div>
+
+        <div id="cherryRares" class="tool<?= $tool === 'rares' ? ' active' : ''; ?>">
+            <h2>CherryRares</h2>
+            <p>Type in a rare item below, and you'll be presented with where to get it and it's drop rate.</p>
+            <input type="text" id="rareItem" placeholder="Start typing your rare item...">
         </div>
 
         <div id="results"></div>
