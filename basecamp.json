@@ -944,7 +944,7 @@
     "62": {
         "benefits": "Increases the damage cap to 800k",
         "resources": {
-            "": 2000000000,
+            "Coins": 2000000000,
             "Challenger Legs": 2,
             "Challenger Top": 2
         },
