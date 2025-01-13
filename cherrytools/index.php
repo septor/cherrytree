@@ -11,12 +11,16 @@
 <body class="normalMode">
     <header>
         <h1>CherryTree Tools</h1>
-        <button id="themeToggle">Switch to Banshen Mode</button>
+        <div class="button-container">
+            <button id="themeToggle">To Banshen Mode</button>
+            <button id="colorToggle">Swap to Pink</button>
+        </div>
     </header>
     <nav>
-        <button id="cherryQuickButton"<?= $tool === 'quick' ? ' class="active"' : ''; ?>>CherryQuick</button>
-        <button id="cherryHuntsButton"<?= $tool === 'hunts' ? ' class="active"' : ''; ?>>CherryHunts</button>
-        <button id="cherryRaresButton"<?= $tool === 'rares' ? ' class="active"' : ''; ?>>CherryRares</button>
+        <span>Cherry</span>
+        <button id="cherryQuickButton"<?= $tool === 'quick' ? ' class="active"' : ''; ?>>Quick</button>
+        <button id="cherryHuntsButton"<?= $tool === 'hunts' ? ' class="active"' : ''; ?>>Hunts</button>
+        <button id="cherryRaresButton"<?= $tool === 'rares' ? ' class="active"' : ''; ?>>Rares</button>
     </nav>
     <main>
 

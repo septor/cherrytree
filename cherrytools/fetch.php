@@ -1,4 +1,24 @@
 <?php
+function number_format_short($n) {
+	if ($n < 900) {
+		$n_format = number_format($n, 2);
+		$suffix = '';
+	} else if ($n < 900000) {
+		$n_format = number_format($n / 1000, 2);
+		$suffix = 'k';
+	} else if ($n < 900000000) {
+		$n_format = number_format($n / 1000000, 2);
+		$suffix = 'm';
+	} else if ($n < 900000000000) {
+		$n_format = number_format($n / 1000000000, 2);
+		$suffix = 'b';
+	} else {
+		$n_format = number_format($n / 1000000000000, 2);
+		$suffix = 't';
+	}
+	return $n_format . $suffix;
+}
+
 if (isset($_GET['data']) || isset($_GET['questLine'])) {
     $needs = isset($_GET['data']) ? array_map('trim', explode(',', $_GET['data'])) : [];
     $questLine = isset($_GET['questLine']) ? strtolower(trim($_GET['questLine'])) : null;
@@ -107,19 +127,19 @@ if (isset($_GET['data']) || isset($_GET['questLine'])) {
         echo "<table style='border-collapse: collapse; width: 100%; text-align: left;'>
         <tr>
         <th>Required Resources</th>
-        <th>Highest Required Levels</th>
+        <th>Required Levels</th>
         <th>Total Rewards</th>
         </tr>
         <tr>
         <td style='vertical-align: top;'>";
         foreach ($totals as $item => $total) {
-            echo number_format($total) . "x " . $item . "<br>";
+            echo number_format_short($total) . " " . $item . "<br>";
         }
         echo "</td>
         <td style='vertical-align: top;'>";
         if (!empty($highestLevels)) {
             foreach ($highestLevels as $skill => $level) {
-                echo "Level " . $level . " " . $skill . "<br>";
+                echo $level . " " . $skill . "<br>";
             }
         } else {
             echo "No requirements needed.";

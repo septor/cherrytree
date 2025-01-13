@@ -1,50 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --bg-color-light: #f1f1f1;
-    --text-color-light: #292f3a;
-    --bg-color-dark: #292f3a;
-    --text-color-dark: #f1f1f1;
+    --banshen-color: #f1f1f1;
+    --normal-color: #292f3a;
+    --border-color: #ccc;
+    --primary-color: #ea9ab2;
 }
 body {
     margin: 0;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Rubik", serif;
+    font-size: 12px;
     transition: background-color 0.3s, color 0.3s;
 }
 body.banshenMode {
-    background-color: var(--bg-color-light);
-    color: var(--text-color-light);
+    background-color: var(--banshen-color);
+    color: var(--normal-color);
 }
 body.normalMode {
-    background-color: var(--bg-color-dark);
-    color: var(--text-color-dark);
+    background-color: var(--normal-color);
+    color: var(--banshen-color);
 }
 body.normalMode input[type=text], body.normalMode select {
-    background-color: #292f3a;
-    color: #f1f1f1;
-    border: 1px solid #cccccc;
+    background-color: var(--normal-color);
+    color: var(--banshen-color);
+    border: 1px solid var(--border-color);
 }
 body.banshenMode input[type=text], body.banshenMode select {
-    background-color: #f1f1f1;
-    color: #292f3a;
-    border: 1px solid #cccccc;
+    background-color: var(--banshen-color);
+    color: var(--normal-color);
+    border: 1px solid var(--border-color);
 }
 ::placeholder {
-    color: #cccccc;
+    color: var(--border-color);
     opacity: 1;
 }
 ::-ms-input-placeholder {
-    color: #cccccc;
-}
-input, button, select {
-    font-family: "Josefin Sans", sans-serif;
+    color: var(--border-color);
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background-color: #ea9ab2;
+    background-color: var(--primary-color);
     color: #292f3a;
     position: sticky;
     top: 0;
@@ -52,6 +50,12 @@ header {
 header h1 {
     margin: 0;
     font-size: 1.2em;
+    text-align: left;
+    flex: 1;
+}
+header .button-container {
+    display: flex;
+    gap: 10px;
 }
 header button {
     background: none;
@@ -68,24 +72,34 @@ nav {
 nav button {
     margin: 0 5px;
     padding: 10px 20px;
-    border: 1px solid #ea9ab2;
+    border: 1px solid var(--primary-color);
     background: none;
-    color: #ea9ab2;
+    color: var(--primary-color);
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.2s, color 0.2s;
 }
 nav button.active {
-    background-color: #ea9ab2;
+    background-color: var(--primary-color);
     color: #292f3a;
 }
 nav button:hover {
-    background-color: #ea9ab2;
+    background-color: var(--primary-color);
     color: #292f3a;
 }
-#themeToggle {
+nav span {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: var(--primary-color);
+    color: #292f3a;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+#themeToggle, #colorToggle {
     color: #292f3a;
     font-weight: 800;
+    font-size: 0.8em;
 }
 .tool {
     display: none;
@@ -94,11 +108,11 @@ nav button:hover {
 .tool.active {
     display: block;
     text-align: center;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }
 input, button, select {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Rubik", serif;
 }
 input[type=text], select {
     width: 100%;
@@ -108,7 +122,7 @@ input[type=text], select {
     border-radius: 4px;
 }
 button {
-    background-color: #ea9ab2;
+    background-color: var(--primary-color);
     color: #292f3a;
     padding: 10px;
     border: none;
@@ -117,6 +131,6 @@ button {
 }
 #results {
     margin-top: 20px;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }

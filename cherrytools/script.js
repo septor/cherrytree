@@ -1,8 +1,17 @@
 const themeToggle = document.getElementById('themeToggle');
+const colorToggle = document.getElementById('colorToggle');
 
 const updateThemeButtonText = () => {
     const isBanshenMode = document.body.classList.contains('banshenMode');
-    themeToggle.textContent = isBanshenMode ? 'Switch to Normal Mode' : 'Switch to Banshen Mode';
+    themeToggle.textContent = isBanshenMode ? 'To Normal Mode' : 'To Banshen Mode';
+};
+
+const updateColorButtonText = (color) => {
+    if (color === '#ea9ab2') {
+        colorToggle.textContent = 'Swap to Pink';
+    } else if (color === '#5aa9e6') {
+        colorToggle.textContent = 'Swap to Blue';
+    }
 };
 
 const saveThemeMode = (mode) => {
@@ -32,6 +41,36 @@ const applySavedTheme = () => {
             console.error('Error fetching the saved mode:', error);
         });
 };
+
+const saveColorPreference = (color) => {
+    fetch('set_color.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `color=${color}`,
+    });
+};
+
+const applySavedColor = () => {
+    fetch('get_color.php')
+        .then((response) => response.json())
+        .then((data) => {
+            const primaryColor = data.color || '#ea9ab2';
+            document.documentElement.style.setProperty('--primary-color', primaryColor);
+        })
+        .catch((error) => {
+            console.error('Error fetching the saved color:', error);
+        });
+};
+
+colorToggle.addEventListener('click', () => {
+    const currentColor = getComputedStyle(document.documentElement).getPropertyValue('--primary-color').trim();
+    const newColor = currentColor === '#ea9ab2' ? '#5aa9e6' : '#ea9ab2';
+    document.documentElement.style.setProperty('--primary-color', newColor);
+    saveColorPreference(newColor);
+    updateColorButtonText(newColor);
+});
 
 const clearResults = () => {
     resultsDiv.innerHTML = '';
@@ -66,6 +105,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 applySavedTheme();
+applySavedColor();
 
 
 const cherryQuickButton = document.getElementById('cherryQuickButton');
@@ -214,7 +254,7 @@ $(document).ready(function() {
                         </li>`;
                 }
                 obtainedHTML += '</ul>';
-                itemDiv.innerHTML = benefitHTML + '<p><strong>How to Get:</strong></p>' + obtainedHTML;
+                itemDiv.innerHTML = benefitHTML + obtainedHTML;
     
                 resultsDiv.appendChild(itemDiv);
             }
