@@ -77,6 +77,12 @@
             "Crafting Satchel while WITHOUT using NORMAL luck potions and:or Leather Gloves equipped.": "32000/19200"
         }
     },
+    "Energy Overload Scroll": {
+        "benefit": "Grants the ability to use multiple Energy Potions at once",
+        "obtained": {
+            "You Must have Thieving Gloves, Defense Cape, and Drake's ring equipped.<br>You must have Cheese as your active Food.<br>Dropped by Elven Mage": ""
+        }
+    },
     "Extreme Power Stone": {
         "benefit": "Increases damage by 50%",
         "obtained": {
@@ -202,6 +208,12 @@
             "Dropped by Feroxi": "3156"
         }
     },
+    "Old Rod": {
+        "benefit": "15% chance while Fishing to obtain one of the following: 1x Gold Coin, Wood, Barrel, Coin Purse, Blue Silk, Diary, Notebook, Anchor, Fish Hook, Bestiary,Stone Tablet, Book of Aroon, Treasure Casket",
+        "obtained": {
+            "Fishing in Small Pond": ""
+        }
+    },
     "Pickaxe of the Gods": {
         "benefit": "3x All ores<br>Zero fail chance",
         "obtained": {
@@ -320,37 +332,37 @@
     "Soul Reaper Helm": {
         "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
         "obtained": {
-            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "75000"
         }
     },
     "Soul Reaper Top": {
         "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
         "obtained": {
-            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "75000"
         }
     },
     "Soul Reaper Greaves": {
         "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
         "obtained": {
-            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "75000"
         }
     },
     "Soul Reaper Gloves": {
         "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
         "obtained": {
-            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "75000"
         }
     },
     "Soul Reaper Boots": {
         "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
         "obtained": {
-            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "100000"
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear.": "75000"
         }
     },
     "Soul Reaper Sword": {
         "benefit": "5% Insta kill chance (Does not work at Kingdom of the Gods)<br>5% Damage bonus",
         "obtained": {
-            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear and sword.": "100000"
+            "Completing Adamet Tasks (not kills). Must be wearing full Primal/Soul Reaper gear and sword.": "75000"
         }
     },
     "Super Power Stone": {
