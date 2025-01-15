@@ -2,7 +2,7 @@
     "Ancient Elven Book": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Queen": "100000/60000",
+            "Dropped by Elven Queen": "100000//",
             "Safecracking Empyreon": "494",
             "Dropped by Noctyra": "6924",
             "Casket of Treasure": "5209"
@@ -18,41 +18,41 @@
     "Blessed Sacrifice": {
         "benefit": "Improves damage by 50% of Max Health",
         "obtained": {
-            "Dropped by Living Armour King": "75000/45000"
+            "Dropped by Living Armour King": "75000//"
         }
     },
     "Book of Death": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Archer": "30000/18000",
+            "Dropped by Elven Archer": "30000//",
             "Dropped by Noctyra": "4154"
         }
     },
     "Book of Necromancy": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven King": "150000/90000"
+            "Dropped by Elven King": "150000//"
         }
     },
     "Cauldron": {
         "benefit": "Allows the automatic renewal of Potions",
         "obtained": {
-            "Dropped by Jin": "10750/6450",
-            "Brewing Super Defence Potions": "3500/2100"
+            "Dropped by Jin": "10750//",
+            "Brewing Super Defence Potions": "3500//"
         }
     },
     "Chefs Hat": {
         "benefit": "2x All Food<br>25% ingredients saver (Doesn't Work On Cook X1)",
         "obtained": {
-            "Pickpocketing Cook While wearing Cooking Cape": "125000/75000",
+            "Pickpocketing Cook While wearing Cooking Cape": "125000//",
             "Casket of Treasure": "4434"
         }
     },
     "Chicken Knife": {
         "benefit": "Just a really cool weapon",
         "obtained": {
-            "Dropped by Chicken": "125000/75000",
-            "Dropped by Elite Chicken": "125000/75000",
+            "Dropped by Chicken": "125000//",
+            "Dropped by Elite Chicken": "125000//",
             "Farm Chest": "771",
             "Crystal Chest": "993",
             "Nefrit Chest": "1370"
@@ -68,19 +68,19 @@
     "Drakes Compass": {
         "benefit": "Allows instant discovery of the full grid",
         "obtained": {
-            "Crafting Satchel while using NORMAL luck potions and Leather Gloves equipped.": "32000/19200"
+            "Crafting Satchel while using NORMAL luck potions and Leather Gloves equipped.": "32000//"
         }
     },
     "Drakes Diary": {
         "benefit": "Does nothing, means you failed to get the Compass",
         "obtained": {
-            "Crafting Satchel while WITHOUT using NORMAL luck potions and:or Leather Gloves equipped.": "32000/19200"
+            "Crafting Satchel while WITHOUT using NORMAL luck potions and:or Leather Gloves equipped.": "32000//"
         }
     },
     "Energy Overload Scroll": {
         "benefit": "Grants the ability to use multiple Energy Potions at once",
         "obtained": {
-            "You Must have Thieving Gloves, Defense Cape, and Drake's ring equipped.<br>You must have Cheese as your active Food.<br>Dropped by Elven Mage": "75000"
+            "You Must have Thieving Gloves, Defense Cape, and Drake's ring equipped.<br>You must have Cheese as your active Food.<br>Dropped by Elven Mage": "75000//"
         }
     },
     "Extreme Power Stone": {
@@ -88,7 +88,7 @@
         "obtained": {
             "Crafted using 15 Super Power Stones": "1",
             "Kings Chest": "3951",
-            "Completing Vain Slayer Tasks (not kills)": "1250/750",
+            "Completing Vain Slayer Tasks (not kills)": "1250//",
             "Safecracking Polisoros": "18",
             "Dropped by Feroxi": "3156"
         }
@@ -96,7 +96,7 @@
     "Flame Gloves": {
         "benefit": "2x Firemaking Exp while Woodcutting<br>Logs Are Automatically Burned While Woodcutting",
         "obtained": {
-            "Discovery in Wasteland Volcano": "125000/75000"
+            "Discovery in Wasteland Volcano": "125000//"
         }
     },
     "Hatchet of the Gods": {
@@ -114,7 +114,7 @@
     "Magic Watering Can": {
         "benefit": "Allows you to automatically harvest and replant Farming Seeds",
         "obtained": {
-            "Dropped by Elite Chicken while wearing full Leather Armour": "125000/75000",
+            "Dropped by Elite Chicken while wearing full Leather Armour": "125000//",
             "Dropped by Aurial": "2539",
             "Safecracking Polisoros": "217"
         }
@@ -122,20 +122,20 @@
     "Mystery Egg": {
         "benefit": "Allows access to the Mystery Island Discovery location",
         "obtained": {
-            "Dropped by Pheonix": "15000/9000",
-            "Discovery in Island Oasis": "3000/1800"
+            "Dropped by Pheonix": "15000//",
+            "Discovery in Island Oasis": "3000//"
         }
     },
     "Mystic Boots": {
         "benefit": "A very powerful pair of boots",
         "obtained": {
-            "Fishing in Livingstone Island": "7500/4500"
+            "Fishing in Livingstone Island": "7500//"
         }
     },
     "Mystic Bottoms": {
         "benefit": "A very powerful pair of robe bottoms",
         "obtained": {
-            "Found while cooking Fish Wedge": "10000/6000",
+            "Found while cooking Fish Wedge": "10000//",
             "Safecracking Empyreon": "329",
             "Safecracking Polisoros": "433"
         }
@@ -143,26 +143,26 @@
     "Mystic Dagger": {
         "benefit": "A very powerful dagger",
         "obtained": {
-            "Completing Lumen Slayer Tasks (not kills)": "2500/1500",
+            "Completing Lumen Slayer Tasks (not kills)": "2500//",
             "Kings Chest": "795"
         }
     },
     "Mystic Gloves": {
         "benefit": "A very powerful pair of gloves",
         "obtained": {
-            "Found while brewing Thieving Potion": "7500/4500"
+            "Found while brewing Thieving Potion": "7500//"
         }
     },
     "Mystic Hat": {
         "benefit": "A very powerful hat",
         "obtained": {
-            "Dropped by Pig": "10000/6000"
+            "Dropped by Pig": "10000//"
         }
     },
     "Mystic Robe": {
         "benefit": "A very powerful robe top",
         "obtained": {
-            "Found while crafting Dragon Rider Top": "62500/37500",
+            "Found while crafting Dragon Rider Top": "62500//",
             "Safecracking Empyreon": "329",
             "Safecracking Polisoros": "433"
         }
@@ -178,19 +178,19 @@
     "Necklace of Attack": {
         "benefit": "Gives a 250 Attack Bonus",
         "obtained": {
-            "During combat while training Attack Skill": "20000/12000"
+            "During combat while training Attack Skill": "20000//"
         }
     },
     "Necklace of Defence": {
         "benefit": "Gives a 250 Defence Bonus",
         "obtained": {
-            "During combat while training Defence Skill": "20000/12000"
+            "During combat while training Defence Skill": "20000//"
         }
     },
     "Necklace of Health": {
         "benefit": "Gives a 250 Health Bonus",
         "obtained": {
-            "Fishing in Beach Pier": "30000/18000",
+            "Fishing in Beach Pier": "30000//",
             "Dropped by Amaran": "1798"
         }
     },
@@ -204,27 +204,27 @@
     "Necklace of Strength": {
         "benefit": "Gives a 250 Strength Bonus",
         "obtained": {
-            "During combat while training Strength Skill": "20000/12000",
+            "During combat while training Strength Skill": "20000//",
             "Dropped by Feroxi": "3156"
         }
     },
     "Old Rod": {
         "benefit": "15% chance while Fishing to obtain one of the following: 1x Gold Coin, Wood, Barrel, Coin Purse, Blue Silk, Diary, Notebook, Anchor, Fish Hook, Bestiary,Stone Tablet, Book of Aroon, Treasure Casket",
         "obtained": {
-            "Fishing in Small Pond": "750"
+            "Fishing in Small Pond": "750//"
         }
     },
     "Pickaxe of the Gods": {
         "benefit": "3x All ores<br>Zero fail chance",
         "obtained": {
-            "Mining Emerald while wearing Mining Cape": "125000/75000",
+            "Mining Emerald while wearing Mining Cape": "125000//",
             "Casket of Treasure": "4184"
         }
     },
     "Power Stone": {
         "benefit": "Increases damage by 10%",
         "obtained": {
-            "Found by Crafting Power Potion": "500/300",
+            "Found by Crafting Power Potion": "500//",
             "Queens Chest": "25",
             "Kings Chest": "24"
         }
@@ -245,32 +245,32 @@
     "Restoration Fragment 1": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Dropped by Water Dragon": "25000/15000"
+            "Dropped by Water Dragon": "25000//"
         }
     },
     "Restoration Fragment 2": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Farming Cherries": "25000/15000",
+            "Farming Cherries": "25000//",
             "Dropped by Aurial": "10156"
         }
     },
     "Restoration Fragment 3": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Discovery in Mount Desmond": "25000/15000"
+            "Discovery in Mount Desmond": "25000//"
         }
     },
     "Restoration Fragment 4": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Chopping Elder Tree": "25000/15000"
+            "Chopping Elder Tree": "25000//"
         }
     },
     "Restoration Fragment 5": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Burning Chestnut Log": "25000/15000"
+            "Burning Chestnut Log": "25000//"
         }
     },
     "Ring Fragments": {
@@ -282,7 +282,7 @@
     "Ring of Death": {
         "benefit": "Provides a 10% chance to instantly kill the enemy",
         "obtained": {
-            "Cooking Dragon Platter": "10000/6000",
+            "Cooking Dragon Platter": "10000//",
             "Safecracking Empyreon": "110",
             "Dropped by Noctyra": "4154",
             "Casket of Treasure": "3384"
@@ -291,7 +291,7 @@
     "Ring of Life": {
         "benefit": "Heals you For 20% Of any damage you deal",
         "obtained": {
-            "Dropped by Elite Pig": "20000/12000",
+            "Dropped by Elite Pig": "20000//",
             "Safecracking Empyreon": "124",
             "Dropped by Amaran": "5995",
             "Casket of Treasure": "3184"
@@ -300,13 +300,13 @@
     "Ring of Souls": {
         "benefit": "2x Soul Gems<br>Restarts Slayer Task automatically<br>Has the effect of the Ring of Speed",
         "obtained": {
-            "Dropped by Elven Queen while doing Slayer Task (on kill)": "250000/150000"
+            "Dropped by Elven Queen while doing Slayer Task (on kill)": "250000//"
         }
     },
     "Ring of Speed": {
         "benefit": "Doubles your Attack Speed",
         "obtained": {
-            "Dropped by Orc King": "15000/9000",
+            "Dropped by Orc King": "15000//",
             "Safecracking Empyreon": "141",
             "Dropped by Cognium": "6006",
             "Casket of Treasure": "2984"
@@ -315,7 +315,7 @@
     "Rod of Anuket": {
         "benefit": "Allows the automatic renewal of Fishing Nets",
         "obtained": {
-            "Fishing in Cave": "2500/1500"
+            "Fishing in Cave": "2500//"
         }
     },
     "Scythe of Demeter": {
@@ -369,7 +369,7 @@
         "benefit": "Increases damage by 25%",
         "obtained": {
             "Crafted using 15 Power Stones": "1",
-            "Dropped by Ghost": "10000/6000",
+            "Dropped by Ghost": "10000//",
             "Queens Chest": "517",
             "Kings Chest": "98"
         }
@@ -377,7 +377,7 @@
     "Thieving Gloves": {
         "benefit": "Reduces Thieving time(From 2.5s to 1.5s)<br>5x All Coins<br>Zero fail chance",
         "obtained": {
-            "Found while Farming Elder Seed": "75000/45000",
+            "Found while Farming Elder Seed": "75000//",
             "Safecracking Auranium": "227"
         }
     }
