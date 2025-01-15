@@ -37,6 +37,46 @@ body.banshenMode input[type=text], body.banshenMode select {
 ::-ms-input-placeholder {
     color: var(--border-color);
 }
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: var(--banshen-color);
+}
+
+body.normalMode .checkbox-container {
+    background-color: var(--normal-color);
+    color: var(--banshen-color);
+}
+
+body.banshenMode .checkbox-container {
+    background-color: var(--banshen-color);
+    color: var(--normal-color);
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: inherit;
+}
+
+.checkbox-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.checkbox-item label {
+    cursor: pointer;
+}
+
 header {
     display: flex;
     justify-content: space-between;

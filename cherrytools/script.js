@@ -202,60 +202,58 @@ $(document).ready(function() {
 
     $.getJSON('https://raw.githubusercontent.com/septor/cherrytree/refs/heads/main/rares.json', function(rareData) {
         const rareItem = document.getElementById('rareItem');
+        const modifiers = document.getElementById('modifiers');
+    
+        function subtractPercentage(number, percentage) {
+            const amountToSubtract = (percentage / 100) * number;
+            return number - amountToSubtract;
+        }
+    
+        const calculateModifiedRate = (baseRate, maxedWishingWell, hasBaseCamp65, hasRingOfSecrets) => {
+            let modifiedRate = baseRate;
+            if (maxedWishingWell) modifiedRate = subtractPercentage(modifiedRate, 40);
+            if (hasBaseCamp65) modifiedRate = subtractPercentage(modifiedRate, 5);
+            if (hasRingOfSecrets) modifiedRate = subtractPercentage(modifiedRate, 10);
+            return Math.round(modifiedRate);
+        };
     
         function displayResults(filteredData) {
             resultsDiv.innerHTML = '';
     
+            const maxedWishingWell = document.getElementById('maxedWishingWell').checked;
+            const hasBaseCamp65 = document.getElementById('hasBaseCamp65').checked;
+            const hasRingOfSecrets = document.getElementById('hasRingOfSecrets').checked;
+    
             for (const [itemName, itemData] of Object.entries(filteredData)) {
                 const itemDiv = document.createElement('div');
                 itemDiv.classList.add('result-item');
-
+    
                 const benefitHTML = `<h3>${itemName}</h3><p>${itemData.benefit}</p>`;
-
-                let obtainedArray = [];
+                let obtainedHTML = '<ul>';
+    
                 for (const [location, rate] of Object.entries(itemData.obtained)) {
-                    if (rate.includes('/')) {
-                        const [baseRate, wishingWellRate] = rate.split('/').map(num => parseInt(num));
-                        const baseRatePercentage = 1 / baseRate * 100;
-                        const wishingWellPercentage = 1 / wishingWellRate * 100;
-                        obtainedArray.push({
-                            location,
-                            baseRate,
-                            wishingWellRate,
-                            baseRatePercentage,
-                            wishingWellPercentage
-                        });
+                    if (rate.includes('//')) {
+                        const baseRate = parseInt(rate.replace('//', ''));
+                        const modifiedRate = calculateModifiedRate(baseRate, maxedWishingWell, hasBaseCamp65, hasRingOfSecrets);
+                        const modifiedRatePercentage = (1 / modifiedRate) * 100;
+    
+                        obtainedHTML += `
+                            <li>
+                                <strong>${location}</strong>: 1/${modifiedRate.toLocaleString()} (${modifiedRatePercentage.toFixed(6)}%)
+                            </li>`;
                     } else {
                         const baseRate = parseInt(rate);
-                        const baseRatePercentage = 1 / baseRate * 100;
-                        obtainedArray.push({
-                            location,
-                            baseRate,
-                            wishingWellRate: null,
-                            baseRatePercentage,
-                            wishingWellPercentage: null
-                        });
+                        const baseRatePercentage = (1 / baseRate) * 100;
+    
+                        obtainedHTML += `
+                            <li>
+                                <strong>${location}</strong>: 1/${baseRate.toLocaleString()} (${baseRatePercentage.toFixed(6)}%)
+                            </li>`;
                     }
                 }
-                obtainedArray.sort((a, b) => b.baseRatePercentage - a.baseRatePercentage);
-                let obtainedHTML = '<ul>';
-                for (const entry of obtainedArray) {
-                    obtainedHTML += `
-                        <li>
-                            <strong>${entry.location}:</strong>
-                            <ul>
-                                <li>Base Rate: 1/${entry.baseRate.toLocaleString()} (${entry.baseRatePercentage.toFixed(6)}%)</li>
-                                ${
-                                    entry.wishingWellRate
-                                        ? `<li>Max WW: 1/${entry.wishingWellRate.toLocaleString()} (${entry.wishingWellPercentage.toFixed(6)}%)</li>`
-                                        : ''
-                                }
-                            </ul>
-                        </li>`;
-                }
+    
                 obtainedHTML += '</ul>';
                 itemDiv.innerHTML = benefitHTML + obtainedHTML;
-    
                 resultsDiv.appendChild(itemDiv);
             }
         }
@@ -267,7 +265,20 @@ $(document).ready(function() {
                 resultsDiv.innerHTML = '';
                 return;
             }
-
+    
+            const filteredData = Object.fromEntries(
+                Object.entries(rareData).filter(([itemName]) =>
+                    itemName.toLowerCase().includes(query)
+                )
+            );
+    
+            displayResults(filteredData);
+        });
+    
+        modifiers.addEventListener('change', () => {
+            const query = rareItem.value.toLowerCase();
+            if (!query.trim()) return;
+    
             const filteredData = Object.fromEntries(
                 Object.entries(rareData).filter(([itemName]) =>
                     itemName.toLowerCase().includes(query)
@@ -277,4 +288,5 @@ $(document).ready(function() {
             displayResults(filteredData);
         });
     });
+    
 });

@@ -46,6 +46,23 @@
 
         <div id="cherryRares" class="tool<?= $tool === 'rares' ? ' active' : ''; ?>">
             <h2>CherryRares</h2>
+            <div id="modifiers">
+                <div class="checkbox-container">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="maxedWishingWell">
+                        <label for="maxedWishingWell">Maxed Wishing Well</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="hasBaseCamp65">
+                        <label for="hasBaseCamp65">Have Base Camp 65</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="hasRingOfSecrets">
+                        <label for="hasRingOfSecrets">Have Ring of Secrets Equipped</label>
+                    </div>
+                </div>
+            </div>
+
             <p>Type in a rare item below, and you'll be presented with how to get it and it's drop rate. The list is sorted by best to worst drop rate.</p>
             <input type="text" id="rareItem" placeholder="Start typing your rare item...">
         </div>
