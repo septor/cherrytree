@@ -11,8 +11,8 @@
     "Ancient Rod": {
         "benefit": "Allows access to the Mystery Island Fishing spot",
         "obtained": {
-            "Dropped by Goblin Chief": "20000/12000",
-            "Fishing in City River": "13000/7800"
+            "Dropped by Goblin Chief": "20000//",
+            "Fishing in City River": "13000//"
         }
     },
     "Blessed Sacrifice": {
@@ -80,7 +80,7 @@
     "Energy Overload Scroll": {
         "benefit": "Grants the ability to use multiple Energy Potions at once",
         "obtained": {
-            "You Must have Thieving Gloves, Defense Cape, and Drake's ring equipped.<br>You must have Cheese as your active Food.<br>Dropped by Elven Mage": ""
+            "You Must have Thieving Gloves, Defense Cape, and Drake's ring equipped.<br>You must have Cheese as your active Food.<br>Dropped by Elven Mage": "75000"
         }
     },
     "Extreme Power Stone": {
@@ -211,7 +211,7 @@
     "Old Rod": {
         "benefit": "15% chance while Fishing to obtain one of the following: 1x Gold Coin, Wood, Barrel, Coin Purse, Blue Silk, Diary, Notebook, Anchor, Fish Hook, Bestiary,Stone Tablet, Book of Aroon, Treasure Casket",
         "obtained": {
-            "Fishing in Small Pond": ""
+            "Fishing in Small Pond": "750"
         }
     },
     "Pickaxe of the Gods": {
