@@ -76,6 +76,18 @@ const clearResults = () => {
     resultsDiv.innerHTML = '';
 };
 
+document.getElementById('baseCampData').addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        fetchData();
+    }
+});
+
+document.getElementById('questLevels').addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        fetchData();
+    }
+});
+
 function fetchData() {
     var data = $('#baseCampData').val();
     var questLine = $('#questLine').val();
