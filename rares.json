@@ -88,7 +88,7 @@
             "Crafted using 15 Super Power Stones": "1",
             "Kings Chest": "3951",
             "Completing Vain Slayer Tasks (not kills)": "1250//",
-            "Safecracking Polisoros": "18",
+            "Safecracking Polisoros": "24",
             "Dropped by Feroxi": "3156"
         }
     },
@@ -139,7 +139,7 @@
         "obtained": {
             "Dropped by Elite Chicken while wearing full Leather Armour": "125000//",
             "Dropped by Aurial": "2539",
-            "Safecracking Polisoros": "217"
+            "Safecracking Polisoros": "300"
         }
     },
     "Mystery Egg": {
@@ -159,8 +159,8 @@
         "benefit": "A very powerful pair of robe bottoms",
         "obtained": {
             "Found while cooking Fish Wedge": "10000//",
-            "Safecracking Empyreon": "329",
-            "Safecracking Polisoros": "433"
+            "Safecracking Empyreon": "586",
+            "Safecracking Polisoros": "599"
         }
     },
     "Mystic Dagger": {
@@ -186,8 +186,8 @@
         "benefit": "A very powerful robe top",
         "obtained": {
             "Found while crafting Dragon Rider Top": "62500//",
-            "Safecracking Empyreon": "329",
-            "Safecracking Polisoros": "433"
+            "Safecracking Empyreon": "586",
+            "Safecracking Polisoros": "599"
         }
     },
     "Mystic Staff": {
@@ -234,7 +234,8 @@
     "Old Fishing Rod": {
         "benefit": "15% chance while Fishing to obtain one of the following: 1x Gold Coin, Wood, Barrel, Coin Purse, Blue Silk, Diary, Notebook, Anchor, Fish Hook, Bestiary,Stone Tablet, Book of Aroon, Treasure Casket",
         "obtained": {
-            "Fishing in Small Pond": "750//"
+            "Fishing in Small Pond": "750//",
+            "Safecracking Dryadalis": "294"
         }
     },
     "Pickaxe of the Gods": {
@@ -255,7 +256,7 @@
     "Pumpkin Pie Recipe Scroll": {
         "benefit": "Grants you the Pumpkin Pie recipe.",
         "obtained": {
-            "Safecracking Empyreon": "329"
+            "Safecracking Empyreon": "469"
         }
     },
     "Rabbits Foot": {
@@ -299,14 +300,17 @@
     "Ring Fragments": {
         "benefit": "Can be used in the workshop to Craft Powerful Rings",
         "obtained": {
-            "1-3 can be found at a time while crafting any item in the workshop": "250000"
+            "1-3 can be found at a time while crafting any item in the workshop": "250000",
+            "Safecracking Auranium": "280",
+            "Safecracking Polisoros": "899",
+            "Safecracking Empyreon": "1173"
         }
     },
     "Ring of Death": {
         "benefit": "Provides a 10% chance to instantly kill the enemy",
         "obtained": {
             "Cooking Dragon Platter": "10000//",
-            "Safecracking Empyreon": "110",
+            "Safecracking Empyreon": "293",
             "Dropped by Noctyra": "4154",
             "Casket of Treasure": "3384"
         }
@@ -315,7 +319,7 @@
         "benefit": "Heals you For 20% Of any damage you deal",
         "obtained": {
             "Dropped by Elite Pig": "10000//",
-            "Safecracking Empyreon": "124",
+            "Safecracking Empyreon": "293",
             "Dropped by Amaran": "5995",
             "Casket of Treasure": "3184"
         }
@@ -336,7 +340,7 @@
         "benefit": "Doubles your Attack Speed",
         "obtained": {
             "Dropped by Orc King": "7500//",
-            "Safecracking Empyreon": "141",
+            "Safecracking Empyreon": "293",
             "Dropped by Cognium": "6006",
             "Casket of Treasure": "2984"
         }
@@ -344,14 +348,15 @@
     "Rod of Anuket": {
         "benefit": "Allows the automatic renewal of Fishing Nets",
         "obtained": {
-            "Fishing in Cave": "2500//"
+            "Fishing in Cave": "2500//",
+            "Safecracking Hydrelos": "266"
         }
     },
     "Scythe of Demeter": {
         "benefit": "Reduces Farming timers by 80%",
         "obtained": {
             "Harvesting any crop in the game. The higher the level the better the odds. Rates based on tomatoes.": "172500",
-            "Safecracking Auranium": "454",
+            "Safecracking Auranium": "560",
             "Kings Chest": "19756",
             "Farm Chest": "9605",
             "Eagles Nest": "29270",
@@ -407,7 +412,7 @@
         "benefit": "Reduces Thieving time(From 2.5s to 1.5s)<br>5x All Coins<br>Zero fail chance",
         "obtained": {
             "Found while Farming Elder Seed": "75000//",
-            "Safecracking Auranium": "227"
+            "Safecracking Auranium": "1119"
         }
     }
 }
