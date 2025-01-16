@@ -2,7 +2,7 @@
     "Ancient Elven Book": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Queen": "100000//",
+            "Dropped by Elven Queen": "50000//",
             "Dropped by Noctyra": "6924",
             "Casket of Treasure": "5209"
         }
@@ -17,13 +17,13 @@
     "Blessed Sacrifice": {
         "benefit": "Improves damage by 50% of Max Health",
         "obtained": {
-            "Dropped by Living Armour King": "75000//"
+            "Dropped by Living Armour King": "37500//"
         }
     },
     "Book of Death": {
         "benefit": "A powerful item for Shield Slot",
         "obtained": {
-            "Dropped by Elven Archer": "30000//",
+            "Dropped by Elven Archer": "15000//",
             "Dropped by Noctyra": "4154"
         }
     },
@@ -98,6 +98,30 @@
             "Discovery in Wasteland Volcano": "125000//"
         }
     },
+    "Fragment of Secrets 1": {
+        "benefit": "Unknown",
+        "obtained": {
+            "Unknown": ""
+        }
+    },
+    "Fragment of Secrets 2": {
+        "benefit": "Unknown",
+        "obtained": {
+            "Unknown": ""
+        }
+    },
+    "Fragment of Secrets 3": {
+        "benefit": "Unknown",
+        "obtained": {
+            "Unknown": ""
+        }
+    },
+    "Fragment of Secrets 4": {
+        "benefit": "Unknown",
+        "obtained": {
+            "Unknown": ""
+        }
+    },
     "Hatchet of the Gods": {
         "benefit": "25% increase in Chopping Speed<br>2x all Logs<br>Doubles seed chance while Chopping<br>Doubles the Eagles Nest chance(Stacks with Rabbits Foot)<br>Zero fail chance",
         "obtained": {
@@ -155,7 +179,7 @@
     "Mystic Hat": {
         "benefit": "A very powerful hat",
         "obtained": {
-            "Dropped by Pig": "10000//"
+            "Dropped by Pig": "5000//"
         }
     },
     "Mystic Robe": {
@@ -177,13 +201,13 @@
     "Necklace of Attack": {
         "benefit": "Gives a 250 Attack Bonus",
         "obtained": {
-            "During combat while training Attack Skill": "20000//"
+            "During combat while training Attack Skill": "10000//"
         }
     },
     "Necklace of Defence": {
         "benefit": "Gives a 250 Defence Bonus",
         "obtained": {
-            "During combat while training Defence Skill": "20000//"
+            "During combat while training Defence Skill": "10000//"
         }
     },
     "Necklace of Health": {
@@ -203,11 +227,11 @@
     "Necklace of Strength": {
         "benefit": "Gives a 250 Strength Bonus",
         "obtained": {
-            "During combat while training Strength Skill": "20000//",
+            "During combat while training Strength Skill": "10000//",
             "Dropped by Feroxi": "3156"
         }
     },
-    "Old Rod": {
+    "Old Fishing Rod": {
         "benefit": "15% chance while Fishing to obtain one of the following: 1x Gold Coin, Wood, Barrel, Coin Purse, Blue Silk, Diary, Notebook, Anchor, Fish Hook, Bestiary,Stone Tablet, Book of Aroon, Treasure Casket",
         "obtained": {
             "Fishing in Small Pond": "750//"
@@ -244,32 +268,32 @@
     "Restoration Fragment 1": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Dropped by Water Dragon": "25000//"
+            "Dropped by Water Dragon": "15000//"
         }
     },
     "Restoration Fragment 2": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Farming Cherries": "25000//",
+            "Farming Cherries": "15000//",
             "Dropped by Aurial": "10156"
         }
     },
     "Restoration Fragment 3": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Discovery in Mount Desmond": "25000//"
+            "Discovery in Mount Desmond": "15000//"
         }
     },
     "Restoration Fragment 4": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Chopping Elder Tree": "25000//"
+            "Chopping Elder Tree": "15000//"
         }
     },
     "Restoration Fragment 5": {
         "benefit": "Used to Craft the Necklace of Restoration",
         "obtained": {
-            "Burning Chestnut Log": "25000//"
+            "Burning Chestnut Log": "15000//"
         }
     },
     "Ring Fragments": {
@@ -290,22 +314,28 @@
     "Ring of Life": {
         "benefit": "Heals you For 20% Of any damage you deal",
         "obtained": {
-            "Dropped by Elite Pig": "20000//",
+            "Dropped by Elite Pig": "10000//",
             "Safecracking Empyreon": "124",
             "Dropped by Amaran": "5995",
             "Casket of Treasure": "3184"
         }
     },
+    "Ring of Secrets": {
+        "benefit": "Unknown",
+        "obtained": {
+            "Unknown": ""
+        }
+    },
     "Ring of Souls": {
         "benefit": "2x Soul Gems<br>Restarts Slayer Task automatically<br>Has the effect of the Ring of Speed",
         "obtained": {
-            "Dropped by Elven Queen while doing Slayer Task (on kill)": "250000//"
+            "Dropped by Elven Queen while doing Slayer Task (on kill)": "125000//"
         }
     },
     "Ring of Speed": {
         "benefit": "Doubles your Attack Speed",
         "obtained": {
-            "Dropped by Orc King": "15000//",
+            "Dropped by Orc King": "7500//",
             "Safecracking Empyreon": "141",
             "Dropped by Cognium": "6006",
             "Casket of Treasure": "2984"
@@ -368,7 +398,7 @@
         "benefit": "Increases damage by 25%",
         "obtained": {
             "Crafted using 15 Power Stones": "1",
-            "Dropped by Ghost": "10000//",
+            "Dropped by Ghost": "2500//",
             "Queens Chest": "517",
             "Kings Chest": "98"
         }
